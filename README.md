@@ -1,4 +1,5 @@
 # Enterprise Ontology Engineering — healthcare edition
+![Learn Knowledge Engineering in 12 Weeks](./banner.png)
 
 ### Become a Knowledge Engineer in 12 weeks with capstone project
 What you will learn: The course covers these skills, from the business question through a REAL working knowledge product:
