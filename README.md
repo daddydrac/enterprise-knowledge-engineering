@@ -1,10 +1,95 @@
 # Enterprise Ontology Engineering — healthcare edition
 
+### Become a Knwoeldge ENgineer in 12 weeks with capstone project
+What you will learn: The course covers these skills, from the business question through a REAL working knowledge product:
+
+1. **Business value and competency questions** — Define who needs an answer, what decision it supports, and how success will be measured.
+
+2. **Source data and provenance** — Inspect real Kaggle data, preserve source meaning, document licenses, and reproduce the selected dataset.
+
+3. **RDF fundamentals** — Represent information as subjects, predicates, and objects; distinguish IRIs, literals, graphs, and datasets.
+
+4. **Identity modeling** — Give separate identities to people, events, records, and record versions without accidentally merging them.
+
+5. **Controlled vocabularies** — Establish consistent terminology, preferred labels, alternative labels, definitions, and scope notes.
+
+6. **Taxonomy construction** — Organize concepts into broader and narrower categories; detect hierarchy cycles and inconsistent labels.
+
+7. **SKOS and thesauri** — Represent vocabulary schemes, synonyms, hierarchical relationships, and related concepts in a standard format.
+
+8. **Taxonomy alignment with SKOS** — Choose appropriate mapping relationships, check their direction, document evidence, and separate proposed mappings from approved ones.
+
+9. **Clinical code alignment** — Preserve historical ICD-9-CM values while reviewing separate ICD-10-CM and ICD-11 terminology layers.
+
+10. **TBox, ABox, and RBox** — Distinguish class definitions, individual facts, and relationship axioms within an ontology.
+
+11. **OWL modeling** — Define classes, properties, restrictions, disjointness, equivalence, and relationships that support useful conclusions.
+
+12. **Necessary and sufficient conditions** — Understand when an axiom constrains class membership and when it enables a reasoner to infer membership.
+
+13. **BFO foundations** — Distinguish objects, processes, roles, qualities, and information entities when choosing foundational categories.
+
+14. **Ontology alignment** — Connect domain classes to foundational categories using defensible subclass or equivalence relationships.
+
+15. **Top-down and bottom-up engineering** — Start with foundational categories or domain requirements, then reconcile them through a shared model.
+
+16. **Upper and lower bounds** — Separate architectural layers from logical bounds, including what is definitely included, potentially included, or unresolved.
+
+17. **OWL reasoning profiles** — Compare RL, DL, EL, and QL and understand how modeling requirements affect reasoner selection.
+
+18. **OWL DL reasoning** — Check profiles and consistency, classify named individuals, and inspect consequences using OWLAPI and HermiT.
+
+19. **Reasoning caveats** — Handle open-world assumptions, identity, unnamed existential witnesses, cardinality, property chains, and unsatisfiable classes.
+
+20. **SHACL validation** — Check explicit data requirements, inspect validation failures, and distinguish missing data from logical inconsistency.
+
+21. **SWRL rules** — Write and execute a basic relationship rule; understand support limits and when another mechanism fits better.
+
+22. **SPARQL fundamentals** — Use SELECT, ASK, CONSTRUCT, and the other query forms to inspect and retrieve graph information.
+
+23. **SPARQL expressions and parameters** — Work with datatypes, language tags, FILTER, BIND, VALUES, COALESCE, and parameter binding.
+
+24. **Missing values and negation** — Understand OPTIONAL, unbound variables, MINUS, and NOT EXISTS without confusing absence with logical falsehood.
+
+25. **Joins and aggregation** — Count at the correct level of detail and recognize duplicate results caused by joins.
+
+26. **Property paths** — Traverse taxonomy relationships while distinguishing graph reachability from ontology reasoning.
+
+27. **Named graphs and updates** — Control query scope, separate asserted and derived information, and practice reversible graph updates.
+
+28. **Querying OWL DL results** — Query selected reasoner outputs while declaring exactly which entailments the exported graph contains.
+
+29. **Blank nodes and OWL structures** — Inspect anonymous restrictions and RDF lists without treating temporary identifiers as durable business keys.
+
+30. **Relational-to-ontology mapping** — Translate warehouse records into RDF, understand R2RML mapping specifications, and reconcile SQL with SPARQL.
+
+31. **Evidence and explanations** — Trace an answer to source identifiers, transformation policies, ontology axioms, and model versions.
+
+32. **Ontology extension** — Add definitions and axioms while checking profile compliance, consistency, and the impact on existing answers.
+
+33. **Versioning, regression, and retraction** — Compare answer identities across releases, rebuild unsupported conclusions, and plan coherent rollback.
+
+34. **Query debugging and portability** — Diagnose syntax, dataset, datatype, join, and entailment problems; understand endpoint and federation boundaries.
+
+35. **Semantic data products and catalogs** — Use DCAT and provenance metadata to make datasets discoverable, understandable, and reusable.
+
+36. **Governance and operation** — Define ownership, approval responsibilities, access policies, freshness, support, service expectations, and operating costs.
+
+37. **AI integration** — Design an assistant around approved queries, controlled access, evidence checks, and clearly stated reasoning limits.
+
+38. **Python notebook workflows** — Run reproducible exercises using RDFLib, pySHACL, owlrl, Owlready2, and the supporting Java reasoning tools.
+
+39. **Communication and peer review** — Explain the same inference to an engineer and a business stakeholder; evaluate models using a review rubric.
+
+40. **Capstone and adoption measurement** — Deliver an inference, evidence, cataloged product, and pilot scorecard measuring correctness, usability, adoption, and cost.
+    
 © 2026 Joe Hoeller, AI Systems & Enterprise Knowledge Engineer
 
 Start with the Primer PDF, then open E00 in notebooks/enterprise. The Workbook PDF follows the executable labs. This edition includes **25 learner notebooks and 25 separate solutions**: 15 enterprise lessons and 10 SPARQL lessons.
 
 You will build a review workbench from 60 published Kaggle encounter records, align a small taxonomy with SKOS, import BFO, classify with OWL DL, validate with SHACL, try a bounded SWRL rule, reconcile SQL and SPARQL, and package a semantic data product. Learners will measure whether people can use the product, alongside checking whether its answers are correct.
+
+
 
 ## Setup — macOS / Linux
 
