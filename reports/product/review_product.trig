@@ -1,0 +1,2251 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <https://example.org/health/ontology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:graph:asserted:v1> {
+    <https://example.org/health/resource/record/10195068> a owl:NamedIndividual,
+            ns1:EncounterRecord ;
+        ns1:a1cCategory ">7" ;
+        ns1:documents <https://example.org/health/resource/encounter/10195068> ;
+        ns1:encounterId "10195068" ;
+        ns1:labProcedureCount 54 ;
+        ns1:primaryCode <https://example.org/health/icd9-source/250.02> ;
+        ns1:readmissionCategory "NO" ;
+        ns1:stayDays 2 .
+
+    <https://example.org/health/resource/record/10323282> a owl:NamedIndividual,
+            ns1:EncounterRecord ;
+        ns1:documents <https://example.org/health/resource/encounter/10323282> ;
+        ns1:encounterId "10323282" ;
+        ns1:labProcedureCount 49 ;
+        ns1:primaryCode <https://example.org/health/icd9-source/250.02> ;
+        ns1:readmissionCategory "<30" ;
+        ns1:stayDays 1 .
+
+    <https://example.org/health/resource/record/10555854> a owl:NamedIndividual,
+            ns1:EncounterRecord ;
+        ns1:a1cCategory ">8" ;
+        ns1:documents <https://example.org/health/resource/encounter/10555854> ;
+        ns1:encounterId "10555854" ;
+        ns1:labProcedureCount 59 ;
+        ns1:primaryCode <https://example.org/health/icd9-source/493> ;
+        ns1:readmissionCategory ">30" ;
+        ns1:stayDays 8 .
+
+    <https://example.org/health/resource/record/10590702> a owl:NamedIndividual,
+            ns1:EncounterRecord ;
+        ns1:documents <https://example.org/health/resource/encounter/10590702> ;
+        ns1:encounterId "10590702" ;
+        ns1:labProcedureCount 46 ;
+        ns1:primaryCode <https://example.org/health/icd9-source/250.02> ;
+        ns1:readmissionCategory ">30" ;
+        ns1:stayDays 2 .
+
+    <https://example.org/health/resource/record/1157454> a owl:NamedIndividual,
+            ns1:EncounterRecord ;
+        ns1:documents <https://example.org/health/resource/encounter/1157454> ;
+        ns1:encounterId "1157454" ;
+        ns1:labProcedureCount 69 ;
+        ns1:primaryCode <https://example.org/health/icd9-source/428> ;
+        ns1:readmissionCategory ">30" ;
+        ns1:stayDays 7 .
+
+    <https://example.org/health/resource/record/12082878> a owl:NamedIndividual,
+            ns1:EncounterRecord ;
+        ns1:a1cCategory ">8" ;
+        ns1:documents <https://example.org/health/resource/encounter/12082878> ;
+        ns1:encounterId "12082878" ;
+        ns1:labProcedureCount 47 ;
+        ns1:primaryCode <https://example.org/health/icd9-source/250.02> ;
+        ns1:readmissionCategory "NO" ;
+        ns1:stayDays 2 .
+
+    <https://example.org/health/resource/record/12846246> a owl:NamedIndividual,
+            ns1:EncounterRecord ;
+        ns1:documents <https://example.org/health/resource/encounter/12846246> ;
+        ns1:encounterId "12846246" ;
+        ns1:labProcedureCount 22 ;
+        ns1:primaryCode <https://example.org/health/icd9-source/493> ;
+        ns1:readmissionCategory ">30" ;
+        ns1:stayDays 3 .
+
+    <https://example.org/health/resource/record/13056282> a owl:NamedIndividual,
+            ns1:EncounterRecord ;
+        ns1:documents <https://example.org/health/resource/encounter/13056282> ;
+        ns1:encounterId "13056282" ;
+        ns1:labProcedureCount 34 ;
+        ns1:primaryCode <https://example.org/health/icd9-source/493> ;
+        ns1:readmissionCategory ">30" ;
+        ns1:stayDays 3 .
+
+    <https://example.org/health/resource/record/14964918> a owl:NamedIndividual,
+            ns1:EncounterRecord ;
+        ns1:documents <https://example.org/health/resource/encounter/14964918> ;
+        ns1:encounterId "14964918" ;
+        ns1:labProcedureCount 42 ;
+        ns1:primaryCode <https://example.org/health/icd9-source/493> ;
+        ns1:readmissionCategory ">30" ;
+        ns1:stayDays 3 .
+
+    <https://example.org/health/resource/record/15996702> a owl:NamedIndividual,
+            ns1:EncounterRecord ;
+        ns1:documents <https://example.org/health/resource/encounter/15996702> ;
+        ns1:encounterId "15996702" ;
+        ns1:labProcedureCount 46 ;
+        ns1:primaryCode <https://example.org/health/icd9-source/493> ;
+        ns1:readmissionCategory "NO" ;
+        ns1:stayDays 5 .
+
+    <https://example.org/health/resource/record/16009362> a owl:NamedIndividual,
+            ns1:EncounterRecord ;
+        ns1:documents <https://example.org/health/resource/encounter/16009362> ;
+        ns1:encounterId "16009362" ;
+        ns1:labProcedureCount 12 ;
+        ns1:primaryCode <https://example.org/health/icd9-source/493> ;
+        ns1:readmissionCategory ">30" ;
+        ns1:stayDays 2 .
+
+    <https://example.org/health/resource/record/16426272> a owl:NamedIndividual,
+            ns1:EncounterRecord ;
+        ns1:documents <https://example.org/health/resource/encounter/16426272> ;
+        ns1:encounterId "16426272" ;
+        ns1:labProcedureCount 40 ;
+        ns1:primaryCode <https://example.org/health/icd9-source/493> ;
+        ns1:readmissionCategory ">30" ;
+        ns1:stayDays 5 .
+
+    <https://example.org/health/resource/record/16523640> a owl:NamedIndividual,
+            ns1:EncounterRecord ;
+        ns1:a1cCategory ">8" ;
+        ns1:documents <https://example.org/health/resource/encounter/16523640> ;
+        ns1:encounterId "16523640" ;
+        ns1:labProcedureCount 35 ;
+        ns1:primaryCode <https://example.org/health/icd9-source/493> ;
+        ns1:readmissionCategory "NO" ;
+        ns1:stayDays 5 .
+
+    <https://example.org/health/resource/record/17149320> a owl:NamedIndividual,
+            ns1:EncounterRecord ;
+        ns1:documents <https://example.org/health/resource/encounter/17149320> ;
+        ns1:encounterId "17149320" ;
+        ns1:labProcedureCount 38 ;
+        ns1:primaryCode <https://example.org/health/icd9-source/493> ;
+        ns1:readmissionCategory ">30" ;
+        ns1:stayDays 3 .
+
+    <https://example.org/health/resource/record/17215578> a owl:NamedIndividual,
+            ns1:EncounterRecord ;
+        ns1:documents <https://example.org/health/resource/encounter/17215578> ;
+        ns1:encounterId "17215578" ;
+        ns1:labProcedureCount 50 ;
+        ns1:primaryCode <https://example.org/health/icd9-source/493> ;
+        ns1:readmissionCategory "NO" ;
+        ns1:stayDays 10 .
+
+    <https://example.org/health/resource/record/17228586> a owl:NamedIndividual,
+            ns1:EncounterRecord ;
+        ns1:documents <https://example.org/health/resource/encounter/17228586> ;
+        ns1:encounterId "17228586" ;
+        ns1:labProcedureCount 56 ;
+        ns1:primaryCode <https://example.org/health/icd9-source/493> ;
+        ns1:readmissionCategory "<30" ;
+        ns1:stayDays 1 .
+
+    <https://example.org/health/resource/record/17236530> a owl:NamedIndividual,
+            ns1:EncounterRecord ;
+        ns1:documents <https://example.org/health/resource/encounter/17236530> ;
+        ns1:encounterId "17236530" ;
+        ns1:labProcedureCount 31 ;
+        ns1:primaryCode <https://example.org/health/icd9-source/493> ;
+        ns1:readmissionCategory ">30" ;
+        ns1:stayDays 3 .
+
+    <https://example.org/health/resource/record/17612514> a owl:NamedIndividual,
+            ns1:EncounterRecord ;
+        ns1:a1cCategory ">7" ;
+        ns1:documents <https://example.org/health/resource/encounter/17612514> ;
+        ns1:encounterId "17612514" ;
+        ns1:labProcedureCount 53 ;
+        ns1:primaryCode <https://example.org/health/icd9-source/493> ;
+        ns1:readmissionCategory "<30" ;
+        ns1:stayDays 2 .
+
+    <https://example.org/health/resource/record/17729898> a owl:NamedIndividual,
+            ns1:EncounterRecord ;
+        ns1:documents <https://example.org/health/resource/encounter/17729898> ;
+        ns1:encounterId "17729898" ;
+        ns1:labProcedureCount 58 ;
+        ns1:primaryCode <https://example.org/health/icd9-source/493> ;
+        ns1:readmissionCategory "NO" ;
+        ns1:stayDays 6 .
+
+    <https://example.org/health/resource/record/1881372> a owl:NamedIndividual,
+            ns1:EncounterRecord ;
+        ns1:a1cCategory "Norm" ;
+        ns1:documents <https://example.org/health/resource/encounter/1881372> ;
+        ns1:encounterId "1881372" ;
+        ns1:labProcedureCount 65 ;
+        ns1:primaryCode <https://example.org/health/icd9-source/428> ;
+        ns1:readmissionCategory "<30" ;
+        ns1:stayDays 4 .
+
+    <https://example.org/health/resource/record/2088630> a owl:NamedIndividual,
+            ns1:EncounterRecord ;
+        ns1:documents <https://example.org/health/resource/encounter/2088630> ;
+        ns1:encounterId "2088630" ;
+        ns1:labProcedureCount 68 ;
+        ns1:primaryCode <https://example.org/health/icd9-source/428> ;
+        ns1:readmissionCategory ">30" ;
+        ns1:stayDays 11 .
+
+    <https://example.org/health/resource/record/252822> a owl:NamedIndividual,
+            ns1:EncounterRecord ;
+        ns1:documents <https://example.org/health/resource/encounter/252822> ;
+        ns1:encounterId "252822" ;
+        ns1:labProcedureCount 52 ;
+        ns1:primaryCode <https://example.org/health/icd9-source/428> ;
+        ns1:readmissionCategory ">30" ;
+        ns1:stayDays 5 .
+
+    <https://example.org/health/resource/record/2549268> a owl:NamedIndividual,
+            ns1:EncounterRecord ;
+        ns1:documents <https://example.org/health/resource/encounter/2549268> ;
+        ns1:encounterId "2549268" ;
+        ns1:labProcedureCount 31 ;
+        ns1:primaryCode <https://example.org/health/icd9-source/428> ;
+        ns1:readmissionCategory "<30" ;
+        ns1:stayDays 6 .
+
+    <https://example.org/health/resource/record/2553282> a owl:NamedIndividual,
+            ns1:EncounterRecord ;
+        ns1:documents <https://example.org/health/resource/encounter/2553282> ;
+        ns1:encounterId "2553282" ;
+        ns1:labProcedureCount 67 ;
+        ns1:primaryCode <https://example.org/health/icd9-source/428> ;
+        ns1:readmissionCategory ">30" ;
+        ns1:stayDays 6 .
+
+    <https://example.org/health/resource/record/2595612> a owl:NamedIndividual,
+            ns1:EncounterRecord ;
+        ns1:a1cCategory ">8" ;
+        ns1:documents <https://example.org/health/resource/encounter/2595612> ;
+        ns1:encounterId "2595612" ;
+        ns1:labProcedureCount 53 ;
+        ns1:primaryCode <https://example.org/health/icd9-source/250.02> ;
+        ns1:readmissionCategory ">30" ;
+        ns1:stayDays 2 .
+
+    <https://example.org/health/resource/record/2600796> a owl:NamedIndividual,
+            ns1:EncounterRecord ;
+        ns1:documents <https://example.org/health/resource/encounter/2600796> ;
+        ns1:encounterId "2600796" ;
+        ns1:labProcedureCount 66 ;
+        ns1:primaryCode <https://example.org/health/icd9-source/493> ;
+        ns1:readmissionCategory ">30" ;
+        ns1:stayDays 1 .
+
+    <https://example.org/health/resource/record/2732424> a owl:NamedIndividual,
+            ns1:EncounterRecord ;
+        ns1:a1cCategory ">8" ;
+        ns1:documents <https://example.org/health/resource/encounter/2732424> ;
+        ns1:encounterId "2732424" ;
+        ns1:labProcedureCount 63 ;
+        ns1:primaryCode <https://example.org/health/icd9-source/428> ;
+        ns1:readmissionCategory ">30" ;
+        ns1:stayDays 2 .
+
+    <https://example.org/health/resource/record/2812446> a owl:NamedIndividual,
+            ns1:EncounterRecord ;
+        ns1:documents <https://example.org/health/resource/encounter/2812446> ;
+        ns1:encounterId "2812446" ;
+        ns1:labProcedureCount 73 ;
+        ns1:primaryCode <https://example.org/health/icd9-source/428> ;
+        ns1:readmissionCategory ">30" ;
+        ns1:stayDays 9 .
+
+    <https://example.org/health/resource/record/2837574> a owl:NamedIndividual,
+            ns1:EncounterRecord ;
+        ns1:documents <https://example.org/health/resource/encounter/2837574> ;
+        ns1:encounterId "2837574" ;
+        ns1:labProcedureCount 58 ;
+        ns1:primaryCode <https://example.org/health/icd9-source/428> ;
+        ns1:readmissionCategory "<30" ;
+        ns1:stayDays 1 .
+
+    <https://example.org/health/resource/record/2865816> a owl:NamedIndividual,
+            ns1:EncounterRecord ;
+        ns1:documents <https://example.org/health/resource/encounter/2865816> ;
+        ns1:encounterId "2865816" ;
+        ns1:labProcedureCount 34 ;
+        ns1:primaryCode <https://example.org/health/icd9-source/250.02> ;
+        ns1:readmissionCategory "NO" ;
+        ns1:stayDays 1 .
+
+    <https://example.org/health/resource/record/2913624> a owl:NamedIndividual,
+            ns1:EncounterRecord ;
+        ns1:a1cCategory ">8" ;
+        ns1:documents <https://example.org/health/resource/encounter/2913624> ;
+        ns1:encounterId "2913624" ;
+        ns1:labProcedureCount 36 ;
+        ns1:primaryCode <https://example.org/health/icd9-source/250.02> ;
+        ns1:readmissionCategory "NO" ;
+        ns1:stayDays 1 .
+
+    <https://example.org/health/resource/record/2930886> a owl:NamedIndividual,
+            ns1:EncounterRecord ;
+        ns1:documents <https://example.org/health/resource/encounter/2930886> ;
+        ns1:encounterId "2930886" ;
+        ns1:labProcedureCount 77 ;
+        ns1:primaryCode <https://example.org/health/icd9-source/428> ;
+        ns1:readmissionCategory ">30" ;
+        ns1:stayDays 5 .
+
+    <https://example.org/health/resource/record/293118> a owl:NamedIndividual,
+            ns1:EncounterRecord ;
+        ns1:documents <https://example.org/health/resource/encounter/293118> ;
+        ns1:encounterId "293118" ;
+        ns1:labProcedureCount 46 ;
+        ns1:primaryCode <https://example.org/health/icd9-source/428> ;
+        ns1:readmissionCategory "NO" ;
+        ns1:stayDays 5 .
+
+    <https://example.org/health/resource/record/2952726> a owl:NamedIndividual,
+            ns1:EncounterRecord ;
+        ns1:documents <https://example.org/health/resource/encounter/2952726> ;
+        ns1:encounterId "2952726" ;
+        ns1:labProcedureCount 60 ;
+        ns1:primaryCode <https://example.org/health/icd9-source/428> ;
+        ns1:readmissionCategory "NO" ;
+        ns1:stayDays 10 .
+
+    <https://example.org/health/resource/record/3030000> a owl:NamedIndividual,
+            ns1:EncounterRecord ;
+        ns1:documents <https://example.org/health/resource/encounter/3030000> ;
+        ns1:encounterId "3030000" ;
+        ns1:labProcedureCount 54 ;
+        ns1:primaryCode <https://example.org/health/icd9-source/428> ;
+        ns1:readmissionCategory "NO" ;
+        ns1:stayDays 3 .
+
+    <https://example.org/health/resource/record/3914808> a owl:NamedIndividual,
+            ns1:EncounterRecord ;
+        ns1:a1cCategory ">8" ;
+        ns1:documents <https://example.org/health/resource/encounter/3914808> ;
+        ns1:encounterId "3914808" ;
+        ns1:labProcedureCount 70 ;
+        ns1:primaryCode <https://example.org/health/icd9-source/250.02> ;
+        ns1:readmissionCategory ">30" ;
+        ns1:stayDays 3 .
+
+    <https://example.org/health/resource/record/4084524> a owl:NamedIndividual,
+            ns1:EncounterRecord ;
+        ns1:a1cCategory ">8" ;
+        ns1:documents <https://example.org/health/resource/encounter/4084524> ;
+        ns1:encounterId "4084524" ;
+        ns1:labProcedureCount 72 ;
+        ns1:primaryCode <https://example.org/health/icd9-source/250.02> ;
+        ns1:readmissionCategory ">30" ;
+        ns1:stayDays 10 .
+
+    <https://example.org/health/resource/record/4084572> a owl:NamedIndividual,
+            ns1:EncounterRecord ;
+        ns1:documents <https://example.org/health/resource/encounter/4084572> ;
+        ns1:encounterId "4084572" ;
+        ns1:labProcedureCount 36 ;
+        ns1:primaryCode <https://example.org/health/icd9-source/493> ;
+        ns1:readmissionCategory "NO" ;
+        ns1:stayDays 2 .
+
+    <https://example.org/health/resource/record/40926> a owl:NamedIndividual,
+            ns1:EncounterRecord ;
+        ns1:documents <https://example.org/health/resource/encounter/40926> ;
+        ns1:encounterId "40926" ;
+        ns1:labProcedureCount 60 ;
+        ns1:primaryCode <https://example.org/health/icd9-source/428> ;
+        ns1:readmissionCategory "<30" ;
+        ns1:stayDays 7 .
+
+    <https://example.org/health/resource/record/4134588> a owl:NamedIndividual,
+            ns1:EncounterRecord ;
+        ns1:documents <https://example.org/health/resource/encounter/4134588> ;
+        ns1:encounterId "4134588" ;
+        ns1:labProcedureCount 48 ;
+        ns1:primaryCode <https://example.org/health/icd9-source/250.02> ;
+        ns1:readmissionCategory "NO" ;
+        ns1:stayDays 2 .
+
+    <https://example.org/health/resource/record/4140282> a owl:NamedIndividual,
+            ns1:EncounterRecord ;
+        ns1:documents <https://example.org/health/resource/encounter/4140282> ;
+        ns1:encounterId "4140282" ;
+        ns1:labProcedureCount 11 ;
+        ns1:primaryCode <https://example.org/health/icd9-source/493> ;
+        ns1:readmissionCategory "NO" ;
+        ns1:stayDays 2 .
+
+    <https://example.org/health/resource/record/42570> a owl:NamedIndividual,
+            ns1:EncounterRecord ;
+        ns1:documents <https://example.org/health/resource/encounter/42570> ;
+        ns1:encounterId "42570" ;
+        ns1:labProcedureCount 55 ;
+        ns1:primaryCode <https://example.org/health/icd9-source/428> ;
+        ns1:readmissionCategory "NO" ;
+        ns1:stayDays 10 .
+
+    <https://example.org/health/resource/record/4486032> a owl:NamedIndividual,
+            ns1:EncounterRecord ;
+        ns1:documents <https://example.org/health/resource/encounter/4486032> ;
+        ns1:encounterId "4486032" ;
+        ns1:labProcedureCount 60 ;
+        ns1:primaryCode <https://example.org/health/icd9-source/250.02> ;
+        ns1:readmissionCategory ">30" ;
+        ns1:stayDays 2 .
+
+    <https://example.org/health/resource/record/449142> a owl:NamedIndividual,
+            ns1:EncounterRecord ;
+        ns1:documents <https://example.org/health/resource/encounter/449142> ;
+        ns1:encounterId "449142" ;
+        ns1:labProcedureCount 59 ;
+        ns1:primaryCode <https://example.org/health/icd9-source/428> ;
+        ns1:readmissionCategory ">30" ;
+        ns1:stayDays 3 .
+
+    <https://example.org/health/resource/record/4622622> a owl:NamedIndividual,
+            ns1:EncounterRecord ;
+        ns1:a1cCategory ">8" ;
+        ns1:documents <https://example.org/health/resource/encounter/4622622> ;
+        ns1:encounterId "4622622" ;
+        ns1:labProcedureCount 22 ;
+        ns1:primaryCode <https://example.org/health/icd9-source/250.02> ;
+        ns1:readmissionCategory "NO" ;
+        ns1:stayDays 3 .
+
+    <https://example.org/health/resource/record/486156> a owl:NamedIndividual,
+            ns1:EncounterRecord ;
+        ns1:documents <https://example.org/health/resource/encounter/486156> ;
+        ns1:encounterId "486156" ;
+        ns1:labProcedureCount 25 ;
+        ns1:primaryCode <https://example.org/health/icd9-source/428> ;
+        ns1:readmissionCategory "<30" ;
+        ns1:stayDays 9 .
+
+    <https://example.org/health/resource/record/4959690> a owl:NamedIndividual,
+            ns1:EncounterRecord ;
+        ns1:a1cCategory ">8" ;
+        ns1:documents <https://example.org/health/resource/encounter/4959690> ;
+        ns1:encounterId "4959690" ;
+        ns1:labProcedureCount 65 ;
+        ns1:primaryCode <https://example.org/health/icd9-source/250.02> ;
+        ns1:readmissionCategory ">30" ;
+        ns1:stayDays 3 .
+
+    <https://example.org/health/resource/record/5293506> a owl:NamedIndividual,
+            ns1:EncounterRecord ;
+        ns1:a1cCategory "Norm" ;
+        ns1:documents <https://example.org/health/resource/encounter/5293506> ;
+        ns1:encounterId "5293506" ;
+        ns1:labProcedureCount 79 ;
+        ns1:primaryCode <https://example.org/health/icd9-source/250.02> ;
+        ns1:readmissionCategory ">30" ;
+        ns1:stayDays 5 .
+
+    <https://example.org/health/resource/record/544194> a owl:NamedIndividual,
+            ns1:EncounterRecord ;
+        ns1:documents <https://example.org/health/resource/encounter/544194> ;
+        ns1:encounterId "544194" ;
+        ns1:labProcedureCount 67 ;
+        ns1:primaryCode <https://example.org/health/icd9-source/428> ;
+        ns1:readmissionCategory "NO" ;
+        ns1:stayDays 11 .
+
+    <https://example.org/health/resource/record/63768> a owl:NamedIndividual,
+            ns1:EncounterRecord ;
+        ns1:documents <https://example.org/health/resource/encounter/63768> ;
+        ns1:encounterId "63768" ;
+        ns1:labProcedureCount 73 ;
+        ns1:primaryCode <https://example.org/health/icd9-source/428> ;
+        ns1:readmissionCategory ">30" ;
+        ns1:stayDays 5 .
+
+    <https://example.org/health/resource/record/6815154> a owl:NamedIndividual,
+            ns1:EncounterRecord ;
+        ns1:documents <https://example.org/health/resource/encounter/6815154> ;
+        ns1:encounterId "6815154" ;
+        ns1:labProcedureCount 57 ;
+        ns1:primaryCode <https://example.org/health/icd9-source/250.02> ;
+        ns1:readmissionCategory ">30" ;
+        ns1:stayDays 1 .
+
+    <https://example.org/health/resource/record/682494> a owl:NamedIndividual,
+            ns1:EncounterRecord ;
+        ns1:documents <https://example.org/health/resource/encounter/682494> ;
+        ns1:encounterId "682494" ;
+        ns1:labProcedureCount 64 ;
+        ns1:primaryCode <https://example.org/health/icd9-source/428> ;
+        ns1:readmissionCategory ">30" ;
+        ns1:stayDays 3 .
+
+    <https://example.org/health/resource/record/6989070> a owl:NamedIndividual,
+            ns1:EncounterRecord ;
+        ns1:a1cCategory ">8" ;
+        ns1:documents <https://example.org/health/resource/encounter/6989070> ;
+        ns1:encounterId "6989070" ;
+        ns1:labProcedureCount 45 ;
+        ns1:primaryCode <https://example.org/health/icd9-source/250.02> ;
+        ns1:readmissionCategory "NO" ;
+        ns1:stayDays 4 .
+
+    <https://example.org/health/resource/record/7287294> a owl:NamedIndividual,
+            ns1:EncounterRecord ;
+        ns1:documents <https://example.org/health/resource/encounter/7287294> ;
+        ns1:encounterId "7287294" ;
+        ns1:labProcedureCount 56 ;
+        ns1:primaryCode <https://example.org/health/icd9-source/493> ;
+        ns1:readmissionCategory "NO" ;
+        ns1:stayDays 2 .
+
+    <https://example.org/health/resource/record/7668324> a owl:NamedIndividual,
+            ns1:EncounterRecord ;
+        ns1:documents <https://example.org/health/resource/encounter/7668324> ;
+        ns1:encounterId "7668324" ;
+        ns1:labProcedureCount 38 ;
+        ns1:primaryCode <https://example.org/health/icd9-source/493> ;
+        ns1:readmissionCategory ">30" ;
+        ns1:stayDays 4 .
+
+    <https://example.org/health/resource/record/7946712> a owl:NamedIndividual,
+            ns1:EncounterRecord ;
+        ns1:documents <https://example.org/health/resource/encounter/7946712> ;
+        ns1:encounterId "7946712" ;
+        ns1:labProcedureCount 39 ;
+        ns1:primaryCode <https://example.org/health/icd9-source/493> ;
+        ns1:readmissionCategory ">30" ;
+        ns1:stayDays 5 .
+
+    <https://example.org/health/resource/record/7960158> a owl:NamedIndividual,
+            ns1:EncounterRecord ;
+        ns1:a1cCategory ">8" ;
+        ns1:documents <https://example.org/health/resource/encounter/7960158> ;
+        ns1:encounterId "7960158" ;
+        ns1:labProcedureCount 67 ;
+        ns1:primaryCode <https://example.org/health/icd9-source/250.02> ;
+        ns1:readmissionCategory "NO" ;
+        ns1:stayDays 4 .
+
+    <https://example.org/health/resource/record/8282100> a owl:NamedIndividual,
+            ns1:EncounterRecord ;
+        ns1:a1cCategory ">7" ;
+        ns1:documents <https://example.org/health/resource/encounter/8282100> ;
+        ns1:encounterId "8282100" ;
+        ns1:labProcedureCount 63 ;
+        ns1:primaryCode <https://example.org/health/icd9-source/250.02> ;
+        ns1:readmissionCategory "NO" ;
+        ns1:stayDays 1 .
+
+    <https://example.org/health/resource/record/8872908> a owl:NamedIndividual,
+            ns1:EncounterRecord ;
+        ns1:documents <https://example.org/health/resource/encounter/8872908> ;
+        ns1:encounterId "8872908" ;
+        ns1:labProcedureCount 32 ;
+        ns1:primaryCode <https://example.org/health/icd9-source/250.02> ;
+        ns1:readmissionCategory "NO" ;
+        ns1:stayDays 3 .
+
+    <https://example.org/health/resource/record/9621486> a owl:NamedIndividual,
+            ns1:EncounterRecord ;
+        ns1:a1cCategory ">8" ;
+        ns1:documents <https://example.org/health/resource/encounter/9621486> ;
+        ns1:encounterId "9621486" ;
+        ns1:labProcedureCount 46 ;
+        ns1:primaryCode <https://example.org/health/icd9-source/250.02> ;
+        ns1:readmissionCategory "NO" ;
+        ns1:stayDays 1 .
+
+    <https://example.org/health/resource/encounter/10195068> a owl:NamedIndividual,
+            ns1:HospitalEncounter ;
+        ns1:hasPatient <https://example.org/health/resource/patient/7024995> .
+
+    <https://example.org/health/resource/encounter/10323282> a owl:NamedIndividual,
+            ns1:HospitalEncounter ;
+        ns1:hasPatient <https://example.org/health/resource/patient/362610> .
+
+    <https://example.org/health/resource/encounter/10555854> a owl:NamedIndividual,
+            ns1:HospitalEncounter ;
+        ns1:hasPatient <https://example.org/health/resource/patient/2571498> .
+
+    <https://example.org/health/resource/encounter/10590702> a owl:NamedIndividual,
+            ns1:HospitalEncounter ;
+        ns1:hasPatient <https://example.org/health/resource/patient/4607883> .
+
+    <https://example.org/health/resource/encounter/1157454> a owl:NamedIndividual,
+            ns1:HospitalEncounter ;
+        ns1:hasPatient <https://example.org/health/resource/patient/57857994> .
+
+    <https://example.org/health/resource/encounter/12082878> a owl:NamedIndividual,
+            ns1:HospitalEncounter ;
+        ns1:hasPatient <https://example.org/health/resource/patient/5945526> .
+
+    <https://example.org/health/resource/encounter/12846246> a owl:NamedIndividual,
+            ns1:HospitalEncounter ;
+        ns1:hasPatient <https://example.org/health/resource/patient/4634397> .
+
+    <https://example.org/health/resource/encounter/13056282> a owl:NamedIndividual,
+            ns1:HospitalEncounter ;
+        ns1:hasPatient <https://example.org/health/resource/patient/278892> .
+
+    <https://example.org/health/resource/encounter/14964918> a owl:NamedIndividual,
+            ns1:HospitalEncounter ;
+        ns1:hasPatient <https://example.org/health/resource/patient/3192903> .
+
+    <https://example.org/health/resource/encounter/15996702> a owl:NamedIndividual,
+            ns1:HospitalEncounter ;
+        ns1:hasPatient <https://example.org/health/resource/patient/1133793> .
+
+    <https://example.org/health/resource/encounter/16009362> a owl:NamedIndividual,
+            ns1:HospitalEncounter ;
+        ns1:hasPatient <https://example.org/health/resource/patient/13731354> .
+
+    <https://example.org/health/resource/encounter/16426272> a owl:NamedIndividual,
+            ns1:HospitalEncounter ;
+        ns1:hasPatient <https://example.org/health/resource/patient/19958256> .
+
+    <https://example.org/health/resource/encounter/16523640> a owl:NamedIndividual,
+            ns1:HospitalEncounter ;
+        ns1:hasPatient <https://example.org/health/resource/patient/95387058> .
+
+    <https://example.org/health/resource/encounter/17149320> a owl:NamedIndividual,
+            ns1:HospitalEncounter ;
+        ns1:hasPatient <https://example.org/health/resource/patient/434871> .
+
+    <https://example.org/health/resource/encounter/17215578> a owl:NamedIndividual,
+            ns1:HospitalEncounter ;
+        ns1:hasPatient <https://example.org/health/resource/patient/7882857> .
+
+    <https://example.org/health/resource/encounter/17228586> a owl:NamedIndividual,
+            ns1:HospitalEncounter ;
+        ns1:hasPatient <https://example.org/health/resource/patient/4702914> .
+
+    <https://example.org/health/resource/encounter/17236530> a owl:NamedIndividual,
+            ns1:HospitalEncounter ;
+        ns1:hasPatient <https://example.org/health/resource/patient/107154> .
+
+    <https://example.org/health/resource/encounter/17612514> a owl:NamedIndividual,
+            ns1:HospitalEncounter ;
+        ns1:hasPatient <https://example.org/health/resource/patient/424053> .
+
+    <https://example.org/health/resource/encounter/17729898> a owl:NamedIndividual,
+            ns1:HospitalEncounter ;
+        ns1:hasPatient <https://example.org/health/resource/patient/2981808> .
+
+    <https://example.org/health/resource/encounter/1881372> a owl:NamedIndividual,
+            ns1:HospitalEncounter ;
+        ns1:hasPatient <https://example.org/health/resource/patient/3115566> .
+
+    <https://example.org/health/resource/encounter/2088630> a owl:NamedIndividual,
+            ns1:HospitalEncounter ;
+        ns1:hasPatient <https://example.org/health/resource/patient/1719279> .
+
+    <https://example.org/health/resource/encounter/252822> a owl:NamedIndividual,
+            ns1:HospitalEncounter ;
+        ns1:hasPatient <https://example.org/health/resource/patient/18196434> .
+
+    <https://example.org/health/resource/encounter/2549268> a owl:NamedIndividual,
+            ns1:HospitalEncounter ;
+        ns1:hasPatient <https://example.org/health/resource/patient/88614963> .
+
+    <https://example.org/health/resource/encounter/2553282> a owl:NamedIndividual,
+            ns1:HospitalEncounter ;
+        ns1:hasPatient <https://example.org/health/resource/patient/2604141> .
+
+    <https://example.org/health/resource/encounter/2595612> a owl:NamedIndividual,
+            ns1:HospitalEncounter ;
+        ns1:hasPatient <https://example.org/health/resource/patient/89193870> .
+
+    <https://example.org/health/resource/encounter/2600796> a owl:NamedIndividual,
+            ns1:HospitalEncounter ;
+        ns1:hasPatient <https://example.org/health/resource/patient/1451637> .
+
+    <https://example.org/health/resource/encounter/2732424> a owl:NamedIndividual,
+            ns1:HospitalEncounter ;
+        ns1:hasPatient <https://example.org/health/resource/patient/6539481> .
+
+    <https://example.org/health/resource/encounter/2812446> a owl:NamedIndividual,
+            ns1:HospitalEncounter ;
+        ns1:hasPatient <https://example.org/health/resource/patient/924174> .
+
+    <https://example.org/health/resource/encounter/2837574> a owl:NamedIndividual,
+            ns1:HospitalEncounter ;
+        ns1:hasPatient <https://example.org/health/resource/patient/63956250> .
+
+    <https://example.org/health/resource/encounter/2865816> a owl:NamedIndividual,
+            ns1:HospitalEncounter ;
+        ns1:hasPatient <https://example.org/health/resource/patient/8450352> .
+
+    <https://example.org/health/resource/encounter/2913624> a owl:NamedIndividual,
+            ns1:HospitalEncounter ;
+        ns1:hasPatient <https://example.org/health/resource/patient/5073354> .
+
+    <https://example.org/health/resource/encounter/2930886> a owl:NamedIndividual,
+            ns1:HospitalEncounter ;
+        ns1:hasPatient <https://example.org/health/resource/patient/1004859> .
+
+    <https://example.org/health/resource/encounter/293118> a owl:NamedIndividual,
+            ns1:HospitalEncounter ;
+        ns1:hasPatient <https://example.org/health/resource/patient/3327282> .
+
+    <https://example.org/health/resource/encounter/2952726> a owl:NamedIndividual,
+            ns1:HospitalEncounter ;
+        ns1:hasPatient <https://example.org/health/resource/patient/25434> .
+
+    <https://example.org/health/resource/encounter/3030000> a owl:NamedIndividual,
+            ns1:HospitalEncounter ;
+        ns1:hasPatient <https://example.org/health/resource/patient/795222> .
+
+    <https://example.org/health/resource/encounter/3914808> a owl:NamedIndividual,
+            ns1:HospitalEncounter ;
+        ns1:hasPatient <https://example.org/health/resource/patient/3678201> .
+
+    <https://example.org/health/resource/encounter/4084524> a owl:NamedIndividual,
+            ns1:HospitalEncounter ;
+        ns1:hasPatient <https://example.org/health/resource/patient/76959585> .
+
+    <https://example.org/health/resource/encounter/4084572> a owl:NamedIndividual,
+            ns1:HospitalEncounter ;
+        ns1:hasPatient <https://example.org/health/resource/patient/4571388> .
+
+    <https://example.org/health/resource/encounter/40926> a owl:NamedIndividual,
+            ns1:HospitalEncounter ;
+        ns1:hasPatient <https://example.org/health/resource/patient/85504905> .
+
+    <https://example.org/health/resource/encounter/4134588> a owl:NamedIndividual,
+            ns1:HospitalEncounter ;
+        ns1:hasPatient <https://example.org/health/resource/patient/6288831> .
+
+    <https://example.org/health/resource/encounter/4140282> a owl:NamedIndividual,
+            ns1:HospitalEncounter ;
+        ns1:hasPatient <https://example.org/health/resource/patient/7443135> .
+
+    <https://example.org/health/resource/encounter/42570> a owl:NamedIndividual,
+            ns1:HospitalEncounter ;
+        ns1:hasPatient <https://example.org/health/resource/patient/77586282> .
+
+    <https://example.org/health/resource/encounter/4486032> a owl:NamedIndividual,
+            ns1:HospitalEncounter ;
+        ns1:hasPatient <https://example.org/health/resource/patient/2241153> .
+
+    <https://example.org/health/resource/encounter/449142> a owl:NamedIndividual,
+            ns1:HospitalEncounter ;
+        ns1:hasPatient <https://example.org/health/resource/patient/66274866> .
+
+    <https://example.org/health/resource/encounter/4622622> a owl:NamedIndividual,
+            ns1:HospitalEncounter ;
+        ns1:hasPatient <https://example.org/health/resource/patient/52605> .
+
+    <https://example.org/health/resource/encounter/486156> a owl:NamedIndividual,
+            ns1:HospitalEncounter ;
+        ns1:hasPatient <https://example.org/health/resource/patient/86240259> .
+
+    <https://example.org/health/resource/encounter/4959690> a owl:NamedIndividual,
+            ns1:HospitalEncounter ;
+        ns1:hasPatient <https://example.org/health/resource/patient/2526498> .
+
+    <https://example.org/health/resource/encounter/5293506> a owl:NamedIndividual,
+            ns1:HospitalEncounter ;
+        ns1:hasPatient <https://example.org/health/resource/patient/1723572> .
+
+    <https://example.org/health/resource/encounter/544194> a owl:NamedIndividual,
+            ns1:HospitalEncounter ;
+        ns1:hasPatient <https://example.org/health/resource/patient/34997814> .
+
+    <https://example.org/health/resource/encounter/63768> a owl:NamedIndividual,
+            ns1:HospitalEncounter ;
+        ns1:hasPatient <https://example.org/health/resource/patient/114882984> .
+
+    <https://example.org/health/resource/encounter/6815154> a owl:NamedIndividual,
+            ns1:HospitalEncounter ;
+        ns1:hasPatient <https://example.org/health/resource/patient/100955538> .
+
+    <https://example.org/health/resource/encounter/682494> a owl:NamedIndividual,
+            ns1:HospitalEncounter ;
+        ns1:hasPatient <https://example.org/health/resource/patient/64729746> .
+
+    <https://example.org/health/resource/encounter/6989070> a owl:NamedIndividual,
+            ns1:HospitalEncounter ;
+        ns1:hasPatient <https://example.org/health/resource/patient/5875713> .
+
+    <https://example.org/health/resource/encounter/7287294> a owl:NamedIndividual,
+            ns1:HospitalEncounter ;
+        ns1:hasPatient <https://example.org/health/resource/patient/1215324> .
+
+    <https://example.org/health/resource/encounter/7668324> a owl:NamedIndividual,
+            ns1:HospitalEncounter ;
+        ns1:hasPatient <https://example.org/health/resource/patient/102101652> .
+
+    <https://example.org/health/resource/encounter/7946712> a owl:NamedIndividual,
+            ns1:HospitalEncounter ;
+        ns1:hasPatient <https://example.org/health/resource/patient/75593475> .
+
+    <https://example.org/health/resource/encounter/7960158> a owl:NamedIndividual,
+            ns1:HospitalEncounter ;
+        ns1:hasPatient <https://example.org/health/resource/patient/311679> .
+
+    <https://example.org/health/resource/encounter/8282100> a owl:NamedIndividual,
+            ns1:HospitalEncounter ;
+        ns1:hasPatient <https://example.org/health/resource/patient/6264009> .
+
+    <https://example.org/health/resource/encounter/8872908> a owl:NamedIndividual,
+            ns1:HospitalEncounter ;
+        ns1:hasPatient <https://example.org/health/resource/patient/920601> .
+
+    <https://example.org/health/resource/encounter/9621486> a owl:NamedIndividual,
+            ns1:HospitalEncounter ;
+        ns1:hasPatient <https://example.org/health/resource/patient/961101> .
+
+    <https://example.org/health/resource/patient/1004859> a owl:NamedIndividual,
+            ns1:Patient .
+
+    <https://example.org/health/resource/patient/100955538> a owl:NamedIndividual,
+            ns1:Patient .
+
+    <https://example.org/health/resource/patient/102101652> a owl:NamedIndividual,
+            ns1:Patient .
+
+    <https://example.org/health/resource/patient/107154> a owl:NamedIndividual,
+            ns1:Patient .
+
+    <https://example.org/health/resource/patient/1133793> a owl:NamedIndividual,
+            ns1:Patient .
+
+    <https://example.org/health/resource/patient/114882984> a owl:NamedIndividual,
+            ns1:Patient .
+
+    <https://example.org/health/resource/patient/1215324> a owl:NamedIndividual,
+            ns1:Patient .
+
+    <https://example.org/health/resource/patient/13731354> a owl:NamedIndividual,
+            ns1:Patient .
+
+    <https://example.org/health/resource/patient/1451637> a owl:NamedIndividual,
+            ns1:Patient .
+
+    <https://example.org/health/resource/patient/1719279> a owl:NamedIndividual,
+            ns1:Patient .
+
+    <https://example.org/health/resource/patient/1723572> a owl:NamedIndividual,
+            ns1:Patient .
+
+    <https://example.org/health/resource/patient/18196434> a owl:NamedIndividual,
+            ns1:Patient .
+
+    <https://example.org/health/resource/patient/19958256> a owl:NamedIndividual,
+            ns1:Patient .
+
+    <https://example.org/health/resource/patient/2241153> a owl:NamedIndividual,
+            ns1:Patient .
+
+    <https://example.org/health/resource/patient/2526498> a owl:NamedIndividual,
+            ns1:Patient .
+
+    <https://example.org/health/resource/patient/25434> a owl:NamedIndividual,
+            ns1:Patient .
+
+    <https://example.org/health/resource/patient/2571498> a owl:NamedIndividual,
+            ns1:Patient .
+
+    <https://example.org/health/resource/patient/2604141> a owl:NamedIndividual,
+            ns1:Patient .
+
+    <https://example.org/health/resource/patient/278892> a owl:NamedIndividual,
+            ns1:Patient .
+
+    <https://example.org/health/resource/patient/2981808> a owl:NamedIndividual,
+            ns1:Patient .
+
+    <https://example.org/health/resource/patient/3115566> a owl:NamedIndividual,
+            ns1:Patient .
+
+    <https://example.org/health/resource/patient/311679> a owl:NamedIndividual,
+            ns1:Patient .
+
+    <https://example.org/health/resource/patient/3192903> a owl:NamedIndividual,
+            ns1:Patient .
+
+    <https://example.org/health/resource/patient/3327282> a owl:NamedIndividual,
+            ns1:Patient .
+
+    <https://example.org/health/resource/patient/34997814> a owl:NamedIndividual,
+            ns1:Patient .
+
+    <https://example.org/health/resource/patient/362610> a owl:NamedIndividual,
+            ns1:Patient .
+
+    <https://example.org/health/resource/patient/3678201> a owl:NamedIndividual,
+            ns1:Patient .
+
+    <https://example.org/health/resource/patient/424053> a owl:NamedIndividual,
+            ns1:Patient .
+
+    <https://example.org/health/resource/patient/434871> a owl:NamedIndividual,
+            ns1:Patient .
+
+    <https://example.org/health/resource/patient/4571388> a owl:NamedIndividual,
+            ns1:Patient .
+
+    <https://example.org/health/resource/patient/4607883> a owl:NamedIndividual,
+            ns1:Patient .
+
+    <https://example.org/health/resource/patient/4634397> a owl:NamedIndividual,
+            ns1:Patient .
+
+    <https://example.org/health/resource/patient/4702914> a owl:NamedIndividual,
+            ns1:Patient .
+
+    <https://example.org/health/resource/patient/5073354> a owl:NamedIndividual,
+            ns1:Patient .
+
+    <https://example.org/health/resource/patient/52605> a owl:NamedIndividual,
+            ns1:Patient .
+
+    <https://example.org/health/resource/patient/57857994> a owl:NamedIndividual,
+            ns1:Patient .
+
+    <https://example.org/health/resource/patient/5875713> a owl:NamedIndividual,
+            ns1:Patient .
+
+    <https://example.org/health/resource/patient/5945526> a owl:NamedIndividual,
+            ns1:Patient .
+
+    <https://example.org/health/resource/patient/6264009> a owl:NamedIndividual,
+            ns1:Patient .
+
+    <https://example.org/health/resource/patient/6288831> a owl:NamedIndividual,
+            ns1:Patient .
+
+    <https://example.org/health/resource/patient/63956250> a owl:NamedIndividual,
+            ns1:Patient .
+
+    <https://example.org/health/resource/patient/64729746> a owl:NamedIndividual,
+            ns1:Patient .
+
+    <https://example.org/health/resource/patient/6539481> a owl:NamedIndividual,
+            ns1:Patient .
+
+    <https://example.org/health/resource/patient/66274866> a owl:NamedIndividual,
+            ns1:Patient .
+
+    <https://example.org/health/resource/patient/7024995> a owl:NamedIndividual,
+            ns1:Patient .
+
+    <https://example.org/health/resource/patient/7443135> a owl:NamedIndividual,
+            ns1:Patient .
+
+    <https://example.org/health/resource/patient/75593475> a owl:NamedIndividual,
+            ns1:Patient .
+
+    <https://example.org/health/resource/patient/76959585> a owl:NamedIndividual,
+            ns1:Patient .
+
+    <https://example.org/health/resource/patient/77586282> a owl:NamedIndividual,
+            ns1:Patient .
+
+    <https://example.org/health/resource/patient/7882857> a owl:NamedIndividual,
+            ns1:Patient .
+
+    <https://example.org/health/resource/patient/795222> a owl:NamedIndividual,
+            ns1:Patient .
+
+    <https://example.org/health/resource/patient/8450352> a owl:NamedIndividual,
+            ns1:Patient .
+
+    <https://example.org/health/resource/patient/85504905> a owl:NamedIndividual,
+            ns1:Patient .
+
+    <https://example.org/health/resource/patient/86240259> a owl:NamedIndividual,
+            ns1:Patient .
+
+    <https://example.org/health/resource/patient/88614963> a owl:NamedIndividual,
+            ns1:Patient .
+
+    <https://example.org/health/resource/patient/89193870> a owl:NamedIndividual,
+            ns1:Patient .
+
+    <https://example.org/health/resource/patient/920601> a owl:NamedIndividual,
+            ns1:Patient .
+
+    <https://example.org/health/resource/patient/924174> a owl:NamedIndividual,
+            ns1:Patient .
+
+    <https://example.org/health/resource/patient/95387058> a owl:NamedIndividual,
+            ns1:Patient .
+
+    <https://example.org/health/resource/patient/961101> a owl:NamedIndividual,
+            ns1:Patient .
+
+    <https://example.org/health/icd9-source/250.02> a owl:NamedIndividual,
+            ns1:EndocrineCode .
+
+    <https://example.org/health/icd9-source/428> a owl:NamedIndividual,
+            ns1:CardiacCode .
+
+    <https://example.org/health/icd9-source/493> a owl:NamedIndividual,
+            ns1:RespiratoryCode .
+}
+
+<urn:graph:metadata:v1> {
+    <https://example.org/health/resource/product/encounter-code-review> a dcat:Dataset ;
+        dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+        dcterms:source <https://www.kaggle.com/datasets/brandao/diabetes> ;
+        dcterms:title "Encounter code review learning product"@en ;
+        dcat:distribution <https://example.org/health/resource/distribution/encounters-v1> ;
+        dcat:version "1.0.0" ;
+        prov:wasDerivedFrom <https://doi.org/10.24432/C5230J> .
+
+    <https://example.org/health/resource/distribution/encounters-v1> a dcat:Distribution ;
+        dcterms:format "text/csv" ;
+        dcat:downloadURL <urn:artifact:data:encounters.csv> ;
+        ns1:sha256 "4e18acdd9c32c491626d117bcb27bebcff0ecd331bd243fd57baffab4492f250" .
+}
+
+<urn:graph:vocabulary:v1> {
+    <https://example.org/health/icd10cm/2026-04/E11.9> a skos:Concept ;
+        skos:broader <https://example.org/health/icd10cm/2026-04/E11> ;
+        skos:inScheme <https://example.org/health/icd10cm/2026-04/scheme> ;
+        skos:notation "E11.9" ;
+        skos:prefLabel "Type 2 diabetes mellitus without complications"@en .
+
+    <https://example.org/health/icd10cm/2026-04/I50.9> a skos:Concept ;
+        skos:broader <https://example.org/health/icd10cm/2026-04/I50> ;
+        skos:inScheme <https://example.org/health/icd10cm/2026-04/scheme> ;
+        skos:notation "I50.9" ;
+        skos:prefLabel "Heart failure, unspecified"@en .
+
+    <https://example.org/health/icd10cm/2026-04/J45.909> a skos:Concept ;
+        skos:broader <https://example.org/health/icd10cm/2026-04/J45> ;
+        skos:inScheme <https://example.org/health/icd10cm/2026-04/scheme> ;
+        skos:notation "J45.909" ;
+        skos:prefLabel "Unspecified asthma, uncomplicated"@en .
+
+    <https://example.org/health/reporting/proposal493> a rdf:Statement ;
+        rdf:object <https://example.org/health/icd10cm/2026-04/J45> ;
+        rdf:predicate skos:closeMatch ;
+        rdf:subject <https://example.org/health/icd9-source/493> ;
+        prov:wasDerivedFrom <https://www.cdc.gov/nchs/icd/icd-10-cm/files.html> ;
+        ns1:rationale "Similar category labels are not sufficient to certify coding equivalence. Compare release scopes, inclusions and exclusions." ;
+        ns1:reviewRole "Terminology steward" ;
+        ns1:status "proposed" .
+
+    <https://example.org/health/reporting/source493> a skos:Concept ;
+        skos:exactMatch <https://example.org/health/icd9-source/493> ;
+        skos:inScheme <https://example.org/health/reporting/scheme> ;
+        skos:prefLabel "Reporting alias for source code 493"@en ;
+        skos:scopeNote "An exact alias of the source token concept in this release; not an equivalence across clinical code systems."@en .
+
+    <https://example.org/health/icd10cm/2026-04/E11> a skos:Concept ;
+        skos:inScheme <https://example.org/health/icd10cm/2026-04/scheme> ;
+        skos:notation "E11" ;
+        skos:prefLabel "Type 2 diabetes mellitus"@en .
+
+    <https://example.org/health/icd10cm/2026-04/I50> a skos:Concept ;
+        skos:inScheme <https://example.org/health/icd10cm/2026-04/scheme> ;
+        skos:notation "I50" ;
+        skos:prefLabel "Heart failure"@en .
+
+    <https://example.org/health/reporting/cardiac> a skos:Concept ;
+        skos:broader <https://example.org/health/reporting/clinical> ;
+        skos:inScheme <https://example.org/health/reporting/scheme> ;
+        skos:prefLabel "Cardiac code family"@en .
+
+    <https://example.org/health/reporting/endocrine> a skos:Concept ;
+        skos:broader <https://example.org/health/reporting/clinical> ;
+        skos:inScheme <https://example.org/health/reporting/scheme> ;
+        skos:prefLabel "Endocrine code family"@en .
+
+    <https://example.org/health/reporting/respiratory> a skos:Concept ;
+        skos:broader <https://example.org/health/reporting/clinical> ;
+        skos:inScheme <https://example.org/health/reporting/scheme> ;
+        skos:prefLabel "Respiratory code family"@en .
+
+    <https://example.org/health/icd10cm/2026-04/J45> a skos:Concept ;
+        skos:inScheme <https://example.org/health/icd10cm/2026-04/scheme> ;
+        skos:notation "J45" ;
+        skos:prefLabel "Asthma"@en .
+
+    <https://example.org/health/icd9-source/scheme> a skos:ConceptScheme ;
+        dcterms:source <https://www.kaggle.com/datasets/brandao/diabetes> ;
+        skos:prefLabel "Source ICD-9-CM code tokens"@en .
+
+    <https://example.org/health/reporting/clinical> a skos:Concept ;
+        skos:inScheme <https://example.org/health/reporting/scheme> ;
+        skos:prefLabel "Selected clinical code families"@en .
+
+    <https://example.org/health/reporting/scheme> a skos:ConceptScheme ;
+        skos:prefLabel "Encounter reporting categories"@en .
+
+    <https://example.org/health/icd10cm/2026-04/scheme> a skos:ConceptScheme ;
+        dcterms:source <https://www.cdc.gov/nchs/icd/icd-10-cm/files.html> ;
+        skos:prefLabel "ICD-10-CM selected categories, April 2026"@en .
+
+    <https://example.org/health/icd9-source/250.02> a skos:Concept ;
+        skos:broadMatch <https://example.org/health/reporting/endocrine> ;
+        skos:inScheme <https://example.org/health/icd9-source/scheme> ;
+        skos:notation "250.02" ;
+        skos:prefLabel "Source code 250.02"@en .
+
+    <https://example.org/health/icd9-source/428> a skos:Concept ;
+        skos:broadMatch <https://example.org/health/reporting/cardiac> ;
+        skos:inScheme <https://example.org/health/icd9-source/scheme> ;
+        skos:notation "428" ;
+        skos:prefLabel "Source code 428"@en .
+
+    <https://example.org/health/icd9-source/493> a skos:Concept ;
+        skos:broadMatch <https://example.org/health/reporting/respiratory> ;
+        skos:inScheme <https://example.org/health/icd9-source/scheme> ;
+        skos:notation "493" ;
+        skos:prefLabel "Source code 493"@en .
+}
+
+<urn:graph:derived:v1> {
+    <https://example.org/health/resource/record/10195068> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000031>,
+            owl:Thing .
+
+    <https://example.org/health/resource/record/10323282> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000031>,
+            owl:Thing .
+
+    <https://example.org/health/resource/record/10555854> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000031>,
+            owl:Thing,
+            ns1:CardiopulmonaryRecord,
+            ns1:RespiratoryCodedRecord,
+            ns1:ReviewCandidate .
+
+    <https://example.org/health/resource/record/10590702> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000031>,
+            owl:Thing .
+
+    <https://example.org/health/resource/record/1157454> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000031>,
+            owl:Thing,
+            ns1:CardiacCodedRecord,
+            ns1:CardiopulmonaryRecord .
+
+    <https://example.org/health/resource/record/12082878> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000031>,
+            owl:Thing .
+
+    <https://example.org/health/resource/record/12846246> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000031>,
+            owl:Thing,
+            ns1:CardiopulmonaryRecord,
+            ns1:RespiratoryCodedRecord,
+            ns1:ReviewCandidate .
+
+    <https://example.org/health/resource/record/13056282> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000031>,
+            owl:Thing,
+            ns1:CardiopulmonaryRecord,
+            ns1:RespiratoryCodedRecord,
+            ns1:ReviewCandidate .
+
+    <https://example.org/health/resource/record/14964918> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000031>,
+            owl:Thing,
+            ns1:CardiopulmonaryRecord,
+            ns1:RespiratoryCodedRecord,
+            ns1:ReviewCandidate .
+
+    <https://example.org/health/resource/record/15996702> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000031>,
+            owl:Thing,
+            ns1:CardiopulmonaryRecord,
+            ns1:RespiratoryCodedRecord,
+            ns1:ReviewCandidate .
+
+    <https://example.org/health/resource/record/16009362> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000031>,
+            owl:Thing,
+            ns1:CardiopulmonaryRecord,
+            ns1:RespiratoryCodedRecord,
+            ns1:ReviewCandidate .
+
+    <https://example.org/health/resource/record/16426272> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000031>,
+            owl:Thing,
+            ns1:CardiopulmonaryRecord,
+            ns1:RespiratoryCodedRecord,
+            ns1:ReviewCandidate .
+
+    <https://example.org/health/resource/record/16523640> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000031>,
+            owl:Thing,
+            ns1:CardiopulmonaryRecord,
+            ns1:RespiratoryCodedRecord,
+            ns1:ReviewCandidate .
+
+    <https://example.org/health/resource/record/17149320> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000031>,
+            owl:Thing,
+            ns1:CardiopulmonaryRecord,
+            ns1:RespiratoryCodedRecord,
+            ns1:ReviewCandidate .
+
+    <https://example.org/health/resource/record/17215578> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000031>,
+            owl:Thing,
+            ns1:CardiopulmonaryRecord,
+            ns1:RespiratoryCodedRecord,
+            ns1:ReviewCandidate .
+
+    <https://example.org/health/resource/record/17228586> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000031>,
+            owl:Thing,
+            ns1:CardiopulmonaryRecord,
+            ns1:RespiratoryCodedRecord,
+            ns1:ReviewCandidate .
+
+    <https://example.org/health/resource/record/17236530> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000031>,
+            owl:Thing,
+            ns1:CardiopulmonaryRecord,
+            ns1:RespiratoryCodedRecord,
+            ns1:ReviewCandidate .
+
+    <https://example.org/health/resource/record/17612514> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000031>,
+            owl:Thing,
+            ns1:CardiopulmonaryRecord,
+            ns1:RespiratoryCodedRecord,
+            ns1:ReviewCandidate .
+
+    <https://example.org/health/resource/record/17729898> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000031>,
+            owl:Thing,
+            ns1:CardiopulmonaryRecord,
+            ns1:RespiratoryCodedRecord,
+            ns1:ReviewCandidate .
+
+    <https://example.org/health/resource/record/1881372> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000031>,
+            owl:Thing,
+            ns1:CardiacCodedRecord,
+            ns1:CardiopulmonaryRecord .
+
+    <https://example.org/health/resource/record/2088630> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000031>,
+            owl:Thing,
+            ns1:CardiacCodedRecord,
+            ns1:CardiopulmonaryRecord .
+
+    <https://example.org/health/resource/record/252822> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000031>,
+            owl:Thing,
+            ns1:CardiacCodedRecord,
+            ns1:CardiopulmonaryRecord .
+
+    <https://example.org/health/resource/record/2549268> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000031>,
+            owl:Thing,
+            ns1:CardiacCodedRecord,
+            ns1:CardiopulmonaryRecord .
+
+    <https://example.org/health/resource/record/2553282> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000031>,
+            owl:Thing,
+            ns1:CardiacCodedRecord,
+            ns1:CardiopulmonaryRecord .
+
+    <https://example.org/health/resource/record/2595612> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000031>,
+            owl:Thing .
+
+    <https://example.org/health/resource/record/2600796> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000031>,
+            owl:Thing,
+            ns1:CardiopulmonaryRecord,
+            ns1:RespiratoryCodedRecord,
+            ns1:ReviewCandidate .
+
+    <https://example.org/health/resource/record/2732424> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000031>,
+            owl:Thing,
+            ns1:CardiacCodedRecord,
+            ns1:CardiopulmonaryRecord .
+
+    <https://example.org/health/resource/record/2812446> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000031>,
+            owl:Thing,
+            ns1:CardiacCodedRecord,
+            ns1:CardiopulmonaryRecord .
+
+    <https://example.org/health/resource/record/2837574> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000031>,
+            owl:Thing,
+            ns1:CardiacCodedRecord,
+            ns1:CardiopulmonaryRecord .
+
+    <https://example.org/health/resource/record/2865816> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000031>,
+            owl:Thing .
+
+    <https://example.org/health/resource/record/2913624> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000031>,
+            owl:Thing .
+
+    <https://example.org/health/resource/record/2930886> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000031>,
+            owl:Thing,
+            ns1:CardiacCodedRecord,
+            ns1:CardiopulmonaryRecord .
+
+    <https://example.org/health/resource/record/293118> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000031>,
+            owl:Thing,
+            ns1:CardiacCodedRecord,
+            ns1:CardiopulmonaryRecord .
+
+    <https://example.org/health/resource/record/2952726> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000031>,
+            owl:Thing,
+            ns1:CardiacCodedRecord,
+            ns1:CardiopulmonaryRecord .
+
+    <https://example.org/health/resource/record/3030000> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000031>,
+            owl:Thing,
+            ns1:CardiacCodedRecord,
+            ns1:CardiopulmonaryRecord .
+
+    <https://example.org/health/resource/record/3914808> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000031>,
+            owl:Thing .
+
+    <https://example.org/health/resource/record/4084524> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000031>,
+            owl:Thing .
+
+    <https://example.org/health/resource/record/4084572> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000031>,
+            owl:Thing,
+            ns1:CardiopulmonaryRecord,
+            ns1:RespiratoryCodedRecord,
+            ns1:ReviewCandidate .
+
+    <https://example.org/health/resource/record/40926> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000031>,
+            owl:Thing,
+            ns1:CardiacCodedRecord,
+            ns1:CardiopulmonaryRecord .
+
+    <https://example.org/health/resource/record/4134588> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000031>,
+            owl:Thing .
+
+    <https://example.org/health/resource/record/4140282> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000031>,
+            owl:Thing,
+            ns1:CardiopulmonaryRecord,
+            ns1:RespiratoryCodedRecord,
+            ns1:ReviewCandidate .
+
+    <https://example.org/health/resource/record/42570> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000031>,
+            owl:Thing,
+            ns1:CardiacCodedRecord,
+            ns1:CardiopulmonaryRecord .
+
+    <https://example.org/health/resource/record/4486032> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000031>,
+            owl:Thing .
+
+    <https://example.org/health/resource/record/449142> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000031>,
+            owl:Thing,
+            ns1:CardiacCodedRecord,
+            ns1:CardiopulmonaryRecord .
+
+    <https://example.org/health/resource/record/4622622> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000031>,
+            owl:Thing .
+
+    <https://example.org/health/resource/record/486156> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000031>,
+            owl:Thing,
+            ns1:CardiacCodedRecord,
+            ns1:CardiopulmonaryRecord .
+
+    <https://example.org/health/resource/record/4959690> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000031>,
+            owl:Thing .
+
+    <https://example.org/health/resource/record/5293506> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000031>,
+            owl:Thing .
+
+    <https://example.org/health/resource/record/544194> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000031>,
+            owl:Thing,
+            ns1:CardiacCodedRecord,
+            ns1:CardiopulmonaryRecord .
+
+    <https://example.org/health/resource/record/63768> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000031>,
+            owl:Thing,
+            ns1:CardiacCodedRecord,
+            ns1:CardiopulmonaryRecord .
+
+    <https://example.org/health/resource/record/6815154> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000031>,
+            owl:Thing .
+
+    <https://example.org/health/resource/record/682494> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000031>,
+            owl:Thing,
+            ns1:CardiacCodedRecord,
+            ns1:CardiopulmonaryRecord .
+
+    <https://example.org/health/resource/record/6989070> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000031>,
+            owl:Thing .
+
+    <https://example.org/health/resource/record/7287294> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000031>,
+            owl:Thing,
+            ns1:CardiopulmonaryRecord,
+            ns1:RespiratoryCodedRecord,
+            ns1:ReviewCandidate .
+
+    <https://example.org/health/resource/record/7668324> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000031>,
+            owl:Thing,
+            ns1:CardiopulmonaryRecord,
+            ns1:RespiratoryCodedRecord,
+            ns1:ReviewCandidate .
+
+    <https://example.org/health/resource/record/7946712> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000031>,
+            owl:Thing,
+            ns1:CardiopulmonaryRecord,
+            ns1:RespiratoryCodedRecord,
+            ns1:ReviewCandidate .
+
+    <https://example.org/health/resource/record/7960158> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000031>,
+            owl:Thing .
+
+    <https://example.org/health/resource/record/8282100> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000031>,
+            owl:Thing .
+
+    <https://example.org/health/resource/record/8872908> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000031>,
+            owl:Thing .
+
+    <https://example.org/health/resource/record/9621486> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000031>,
+            owl:Thing .
+
+    <https://example.org/health/resource/encounter/10195068> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000003>,
+            <http://purl.obolibrary.org/obo/BFO_0000015>,
+            owl:Thing .
+
+    <https://example.org/health/resource/encounter/10323282> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000003>,
+            <http://purl.obolibrary.org/obo/BFO_0000015>,
+            owl:Thing .
+
+    <https://example.org/health/resource/encounter/10555854> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000003>,
+            <http://purl.obolibrary.org/obo/BFO_0000015>,
+            owl:Thing .
+
+    <https://example.org/health/resource/encounter/10590702> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000003>,
+            <http://purl.obolibrary.org/obo/BFO_0000015>,
+            owl:Thing .
+
+    <https://example.org/health/resource/encounter/1157454> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000003>,
+            <http://purl.obolibrary.org/obo/BFO_0000015>,
+            owl:Thing .
+
+    <https://example.org/health/resource/encounter/12082878> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000003>,
+            <http://purl.obolibrary.org/obo/BFO_0000015>,
+            owl:Thing .
+
+    <https://example.org/health/resource/encounter/12846246> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000003>,
+            <http://purl.obolibrary.org/obo/BFO_0000015>,
+            owl:Thing .
+
+    <https://example.org/health/resource/encounter/13056282> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000003>,
+            <http://purl.obolibrary.org/obo/BFO_0000015>,
+            owl:Thing .
+
+    <https://example.org/health/resource/encounter/14964918> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000003>,
+            <http://purl.obolibrary.org/obo/BFO_0000015>,
+            owl:Thing .
+
+    <https://example.org/health/resource/encounter/15996702> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000003>,
+            <http://purl.obolibrary.org/obo/BFO_0000015>,
+            owl:Thing .
+
+    <https://example.org/health/resource/encounter/16009362> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000003>,
+            <http://purl.obolibrary.org/obo/BFO_0000015>,
+            owl:Thing .
+
+    <https://example.org/health/resource/encounter/16426272> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000003>,
+            <http://purl.obolibrary.org/obo/BFO_0000015>,
+            owl:Thing .
+
+    <https://example.org/health/resource/encounter/16523640> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000003>,
+            <http://purl.obolibrary.org/obo/BFO_0000015>,
+            owl:Thing .
+
+    <https://example.org/health/resource/encounter/17149320> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000003>,
+            <http://purl.obolibrary.org/obo/BFO_0000015>,
+            owl:Thing .
+
+    <https://example.org/health/resource/encounter/17215578> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000003>,
+            <http://purl.obolibrary.org/obo/BFO_0000015>,
+            owl:Thing .
+
+    <https://example.org/health/resource/encounter/17228586> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000003>,
+            <http://purl.obolibrary.org/obo/BFO_0000015>,
+            owl:Thing .
+
+    <https://example.org/health/resource/encounter/17236530> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000003>,
+            <http://purl.obolibrary.org/obo/BFO_0000015>,
+            owl:Thing .
+
+    <https://example.org/health/resource/encounter/17612514> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000003>,
+            <http://purl.obolibrary.org/obo/BFO_0000015>,
+            owl:Thing .
+
+    <https://example.org/health/resource/encounter/17729898> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000003>,
+            <http://purl.obolibrary.org/obo/BFO_0000015>,
+            owl:Thing .
+
+    <https://example.org/health/resource/encounter/1881372> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000003>,
+            <http://purl.obolibrary.org/obo/BFO_0000015>,
+            owl:Thing .
+
+    <https://example.org/health/resource/encounter/2088630> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000003>,
+            <http://purl.obolibrary.org/obo/BFO_0000015>,
+            owl:Thing .
+
+    <https://example.org/health/resource/encounter/252822> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000003>,
+            <http://purl.obolibrary.org/obo/BFO_0000015>,
+            owl:Thing .
+
+    <https://example.org/health/resource/encounter/2549268> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000003>,
+            <http://purl.obolibrary.org/obo/BFO_0000015>,
+            owl:Thing .
+
+    <https://example.org/health/resource/encounter/2553282> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000003>,
+            <http://purl.obolibrary.org/obo/BFO_0000015>,
+            owl:Thing .
+
+    <https://example.org/health/resource/encounter/2595612> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000003>,
+            <http://purl.obolibrary.org/obo/BFO_0000015>,
+            owl:Thing .
+
+    <https://example.org/health/resource/encounter/2600796> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000003>,
+            <http://purl.obolibrary.org/obo/BFO_0000015>,
+            owl:Thing .
+
+    <https://example.org/health/resource/encounter/2732424> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000003>,
+            <http://purl.obolibrary.org/obo/BFO_0000015>,
+            owl:Thing .
+
+    <https://example.org/health/resource/encounter/2812446> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000003>,
+            <http://purl.obolibrary.org/obo/BFO_0000015>,
+            owl:Thing .
+
+    <https://example.org/health/resource/encounter/2837574> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000003>,
+            <http://purl.obolibrary.org/obo/BFO_0000015>,
+            owl:Thing .
+
+    <https://example.org/health/resource/encounter/2865816> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000003>,
+            <http://purl.obolibrary.org/obo/BFO_0000015>,
+            owl:Thing .
+
+    <https://example.org/health/resource/encounter/2913624> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000003>,
+            <http://purl.obolibrary.org/obo/BFO_0000015>,
+            owl:Thing .
+
+    <https://example.org/health/resource/encounter/2930886> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000003>,
+            <http://purl.obolibrary.org/obo/BFO_0000015>,
+            owl:Thing .
+
+    <https://example.org/health/resource/encounter/293118> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000003>,
+            <http://purl.obolibrary.org/obo/BFO_0000015>,
+            owl:Thing .
+
+    <https://example.org/health/resource/encounter/2952726> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000003>,
+            <http://purl.obolibrary.org/obo/BFO_0000015>,
+            owl:Thing .
+
+    <https://example.org/health/resource/encounter/3030000> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000003>,
+            <http://purl.obolibrary.org/obo/BFO_0000015>,
+            owl:Thing .
+
+    <https://example.org/health/resource/encounter/3914808> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000003>,
+            <http://purl.obolibrary.org/obo/BFO_0000015>,
+            owl:Thing .
+
+    <https://example.org/health/resource/encounter/4084524> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000003>,
+            <http://purl.obolibrary.org/obo/BFO_0000015>,
+            owl:Thing .
+
+    <https://example.org/health/resource/encounter/4084572> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000003>,
+            <http://purl.obolibrary.org/obo/BFO_0000015>,
+            owl:Thing .
+
+    <https://example.org/health/resource/encounter/40926> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000003>,
+            <http://purl.obolibrary.org/obo/BFO_0000015>,
+            owl:Thing .
+
+    <https://example.org/health/resource/encounter/4134588> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000003>,
+            <http://purl.obolibrary.org/obo/BFO_0000015>,
+            owl:Thing .
+
+    <https://example.org/health/resource/encounter/4140282> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000003>,
+            <http://purl.obolibrary.org/obo/BFO_0000015>,
+            owl:Thing .
+
+    <https://example.org/health/resource/encounter/42570> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000003>,
+            <http://purl.obolibrary.org/obo/BFO_0000015>,
+            owl:Thing .
+
+    <https://example.org/health/resource/encounter/4486032> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000003>,
+            <http://purl.obolibrary.org/obo/BFO_0000015>,
+            owl:Thing .
+
+    <https://example.org/health/resource/encounter/449142> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000003>,
+            <http://purl.obolibrary.org/obo/BFO_0000015>,
+            owl:Thing .
+
+    <https://example.org/health/resource/encounter/4622622> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000003>,
+            <http://purl.obolibrary.org/obo/BFO_0000015>,
+            owl:Thing .
+
+    <https://example.org/health/resource/encounter/486156> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000003>,
+            <http://purl.obolibrary.org/obo/BFO_0000015>,
+            owl:Thing .
+
+    <https://example.org/health/resource/encounter/4959690> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000003>,
+            <http://purl.obolibrary.org/obo/BFO_0000015>,
+            owl:Thing .
+
+    <https://example.org/health/resource/encounter/5293506> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000003>,
+            <http://purl.obolibrary.org/obo/BFO_0000015>,
+            owl:Thing .
+
+    <https://example.org/health/resource/encounter/544194> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000003>,
+            <http://purl.obolibrary.org/obo/BFO_0000015>,
+            owl:Thing .
+
+    <https://example.org/health/resource/encounter/63768> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000003>,
+            <http://purl.obolibrary.org/obo/BFO_0000015>,
+            owl:Thing .
+
+    <https://example.org/health/resource/encounter/6815154> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000003>,
+            <http://purl.obolibrary.org/obo/BFO_0000015>,
+            owl:Thing .
+
+    <https://example.org/health/resource/encounter/682494> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000003>,
+            <http://purl.obolibrary.org/obo/BFO_0000015>,
+            owl:Thing .
+
+    <https://example.org/health/resource/encounter/6989070> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000003>,
+            <http://purl.obolibrary.org/obo/BFO_0000015>,
+            owl:Thing .
+
+    <https://example.org/health/resource/encounter/7287294> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000003>,
+            <http://purl.obolibrary.org/obo/BFO_0000015>,
+            owl:Thing .
+
+    <https://example.org/health/resource/encounter/7668324> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000003>,
+            <http://purl.obolibrary.org/obo/BFO_0000015>,
+            owl:Thing .
+
+    <https://example.org/health/resource/encounter/7946712> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000003>,
+            <http://purl.obolibrary.org/obo/BFO_0000015>,
+            owl:Thing .
+
+    <https://example.org/health/resource/encounter/7960158> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000003>,
+            <http://purl.obolibrary.org/obo/BFO_0000015>,
+            owl:Thing .
+
+    <https://example.org/health/resource/encounter/8282100> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000003>,
+            <http://purl.obolibrary.org/obo/BFO_0000015>,
+            owl:Thing .
+
+    <https://example.org/health/resource/encounter/8872908> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000003>,
+            <http://purl.obolibrary.org/obo/BFO_0000015>,
+            owl:Thing .
+
+    <https://example.org/health/resource/encounter/9621486> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000003>,
+            <http://purl.obolibrary.org/obo/BFO_0000015>,
+            owl:Thing .
+
+    <https://example.org/health/resource/patient/1004859> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000004>,
+            <http://purl.obolibrary.org/obo/BFO_0000030>,
+            <http://purl.obolibrary.org/obo/BFO_0000040>,
+            owl:Thing .
+
+    <https://example.org/health/resource/patient/100955538> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000004>,
+            <http://purl.obolibrary.org/obo/BFO_0000030>,
+            <http://purl.obolibrary.org/obo/BFO_0000040>,
+            owl:Thing .
+
+    <https://example.org/health/resource/patient/102101652> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000004>,
+            <http://purl.obolibrary.org/obo/BFO_0000030>,
+            <http://purl.obolibrary.org/obo/BFO_0000040>,
+            owl:Thing .
+
+    <https://example.org/health/resource/patient/107154> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000004>,
+            <http://purl.obolibrary.org/obo/BFO_0000030>,
+            <http://purl.obolibrary.org/obo/BFO_0000040>,
+            owl:Thing .
+
+    <https://example.org/health/resource/patient/1133793> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000004>,
+            <http://purl.obolibrary.org/obo/BFO_0000030>,
+            <http://purl.obolibrary.org/obo/BFO_0000040>,
+            owl:Thing .
+
+    <https://example.org/health/resource/patient/114882984> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000004>,
+            <http://purl.obolibrary.org/obo/BFO_0000030>,
+            <http://purl.obolibrary.org/obo/BFO_0000040>,
+            owl:Thing .
+
+    <https://example.org/health/resource/patient/1215324> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000004>,
+            <http://purl.obolibrary.org/obo/BFO_0000030>,
+            <http://purl.obolibrary.org/obo/BFO_0000040>,
+            owl:Thing .
+
+    <https://example.org/health/resource/patient/13731354> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000004>,
+            <http://purl.obolibrary.org/obo/BFO_0000030>,
+            <http://purl.obolibrary.org/obo/BFO_0000040>,
+            owl:Thing .
+
+    <https://example.org/health/resource/patient/1451637> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000004>,
+            <http://purl.obolibrary.org/obo/BFO_0000030>,
+            <http://purl.obolibrary.org/obo/BFO_0000040>,
+            owl:Thing .
+
+    <https://example.org/health/resource/patient/1719279> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000004>,
+            <http://purl.obolibrary.org/obo/BFO_0000030>,
+            <http://purl.obolibrary.org/obo/BFO_0000040>,
+            owl:Thing .
+
+    <https://example.org/health/resource/patient/1723572> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000004>,
+            <http://purl.obolibrary.org/obo/BFO_0000030>,
+            <http://purl.obolibrary.org/obo/BFO_0000040>,
+            owl:Thing .
+
+    <https://example.org/health/resource/patient/18196434> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000004>,
+            <http://purl.obolibrary.org/obo/BFO_0000030>,
+            <http://purl.obolibrary.org/obo/BFO_0000040>,
+            owl:Thing .
+
+    <https://example.org/health/resource/patient/19958256> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000004>,
+            <http://purl.obolibrary.org/obo/BFO_0000030>,
+            <http://purl.obolibrary.org/obo/BFO_0000040>,
+            owl:Thing .
+
+    <https://example.org/health/resource/patient/2241153> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000004>,
+            <http://purl.obolibrary.org/obo/BFO_0000030>,
+            <http://purl.obolibrary.org/obo/BFO_0000040>,
+            owl:Thing .
+
+    <https://example.org/health/resource/patient/2526498> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000004>,
+            <http://purl.obolibrary.org/obo/BFO_0000030>,
+            <http://purl.obolibrary.org/obo/BFO_0000040>,
+            owl:Thing .
+
+    <https://example.org/health/resource/patient/25434> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000004>,
+            <http://purl.obolibrary.org/obo/BFO_0000030>,
+            <http://purl.obolibrary.org/obo/BFO_0000040>,
+            owl:Thing .
+
+    <https://example.org/health/resource/patient/2571498> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000004>,
+            <http://purl.obolibrary.org/obo/BFO_0000030>,
+            <http://purl.obolibrary.org/obo/BFO_0000040>,
+            owl:Thing .
+
+    <https://example.org/health/resource/patient/2604141> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000004>,
+            <http://purl.obolibrary.org/obo/BFO_0000030>,
+            <http://purl.obolibrary.org/obo/BFO_0000040>,
+            owl:Thing .
+
+    <https://example.org/health/resource/patient/278892> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000004>,
+            <http://purl.obolibrary.org/obo/BFO_0000030>,
+            <http://purl.obolibrary.org/obo/BFO_0000040>,
+            owl:Thing .
+
+    <https://example.org/health/resource/patient/2981808> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000004>,
+            <http://purl.obolibrary.org/obo/BFO_0000030>,
+            <http://purl.obolibrary.org/obo/BFO_0000040>,
+            owl:Thing .
+
+    <https://example.org/health/resource/patient/3115566> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000004>,
+            <http://purl.obolibrary.org/obo/BFO_0000030>,
+            <http://purl.obolibrary.org/obo/BFO_0000040>,
+            owl:Thing .
+
+    <https://example.org/health/resource/patient/311679> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000004>,
+            <http://purl.obolibrary.org/obo/BFO_0000030>,
+            <http://purl.obolibrary.org/obo/BFO_0000040>,
+            owl:Thing .
+
+    <https://example.org/health/resource/patient/3192903> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000004>,
+            <http://purl.obolibrary.org/obo/BFO_0000030>,
+            <http://purl.obolibrary.org/obo/BFO_0000040>,
+            owl:Thing .
+
+    <https://example.org/health/resource/patient/3327282> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000004>,
+            <http://purl.obolibrary.org/obo/BFO_0000030>,
+            <http://purl.obolibrary.org/obo/BFO_0000040>,
+            owl:Thing .
+
+    <https://example.org/health/resource/patient/34997814> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000004>,
+            <http://purl.obolibrary.org/obo/BFO_0000030>,
+            <http://purl.obolibrary.org/obo/BFO_0000040>,
+            owl:Thing .
+
+    <https://example.org/health/resource/patient/362610> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000004>,
+            <http://purl.obolibrary.org/obo/BFO_0000030>,
+            <http://purl.obolibrary.org/obo/BFO_0000040>,
+            owl:Thing .
+
+    <https://example.org/health/resource/patient/3678201> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000004>,
+            <http://purl.obolibrary.org/obo/BFO_0000030>,
+            <http://purl.obolibrary.org/obo/BFO_0000040>,
+            owl:Thing .
+
+    <https://example.org/health/resource/patient/424053> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000004>,
+            <http://purl.obolibrary.org/obo/BFO_0000030>,
+            <http://purl.obolibrary.org/obo/BFO_0000040>,
+            owl:Thing .
+
+    <https://example.org/health/resource/patient/434871> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000004>,
+            <http://purl.obolibrary.org/obo/BFO_0000030>,
+            <http://purl.obolibrary.org/obo/BFO_0000040>,
+            owl:Thing .
+
+    <https://example.org/health/resource/patient/4571388> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000004>,
+            <http://purl.obolibrary.org/obo/BFO_0000030>,
+            <http://purl.obolibrary.org/obo/BFO_0000040>,
+            owl:Thing .
+
+    <https://example.org/health/resource/patient/4607883> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000004>,
+            <http://purl.obolibrary.org/obo/BFO_0000030>,
+            <http://purl.obolibrary.org/obo/BFO_0000040>,
+            owl:Thing .
+
+    <https://example.org/health/resource/patient/4634397> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000004>,
+            <http://purl.obolibrary.org/obo/BFO_0000030>,
+            <http://purl.obolibrary.org/obo/BFO_0000040>,
+            owl:Thing .
+
+    <https://example.org/health/resource/patient/4702914> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000004>,
+            <http://purl.obolibrary.org/obo/BFO_0000030>,
+            <http://purl.obolibrary.org/obo/BFO_0000040>,
+            owl:Thing .
+
+    <https://example.org/health/resource/patient/5073354> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000004>,
+            <http://purl.obolibrary.org/obo/BFO_0000030>,
+            <http://purl.obolibrary.org/obo/BFO_0000040>,
+            owl:Thing .
+
+    <https://example.org/health/resource/patient/52605> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000004>,
+            <http://purl.obolibrary.org/obo/BFO_0000030>,
+            <http://purl.obolibrary.org/obo/BFO_0000040>,
+            owl:Thing .
+
+    <https://example.org/health/resource/patient/57857994> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000004>,
+            <http://purl.obolibrary.org/obo/BFO_0000030>,
+            <http://purl.obolibrary.org/obo/BFO_0000040>,
+            owl:Thing .
+
+    <https://example.org/health/resource/patient/5875713> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000004>,
+            <http://purl.obolibrary.org/obo/BFO_0000030>,
+            <http://purl.obolibrary.org/obo/BFO_0000040>,
+            owl:Thing .
+
+    <https://example.org/health/resource/patient/5945526> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000004>,
+            <http://purl.obolibrary.org/obo/BFO_0000030>,
+            <http://purl.obolibrary.org/obo/BFO_0000040>,
+            owl:Thing .
+
+    <https://example.org/health/resource/patient/6264009> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000004>,
+            <http://purl.obolibrary.org/obo/BFO_0000030>,
+            <http://purl.obolibrary.org/obo/BFO_0000040>,
+            owl:Thing .
+
+    <https://example.org/health/resource/patient/6288831> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000004>,
+            <http://purl.obolibrary.org/obo/BFO_0000030>,
+            <http://purl.obolibrary.org/obo/BFO_0000040>,
+            owl:Thing .
+
+    <https://example.org/health/resource/patient/63956250> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000004>,
+            <http://purl.obolibrary.org/obo/BFO_0000030>,
+            <http://purl.obolibrary.org/obo/BFO_0000040>,
+            owl:Thing .
+
+    <https://example.org/health/resource/patient/64729746> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000004>,
+            <http://purl.obolibrary.org/obo/BFO_0000030>,
+            <http://purl.obolibrary.org/obo/BFO_0000040>,
+            owl:Thing .
+
+    <https://example.org/health/resource/patient/6539481> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000004>,
+            <http://purl.obolibrary.org/obo/BFO_0000030>,
+            <http://purl.obolibrary.org/obo/BFO_0000040>,
+            owl:Thing .
+
+    <https://example.org/health/resource/patient/66274866> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000004>,
+            <http://purl.obolibrary.org/obo/BFO_0000030>,
+            <http://purl.obolibrary.org/obo/BFO_0000040>,
+            owl:Thing .
+
+    <https://example.org/health/resource/patient/7024995> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000004>,
+            <http://purl.obolibrary.org/obo/BFO_0000030>,
+            <http://purl.obolibrary.org/obo/BFO_0000040>,
+            owl:Thing .
+
+    <https://example.org/health/resource/patient/7443135> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000004>,
+            <http://purl.obolibrary.org/obo/BFO_0000030>,
+            <http://purl.obolibrary.org/obo/BFO_0000040>,
+            owl:Thing .
+
+    <https://example.org/health/resource/patient/75593475> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000004>,
+            <http://purl.obolibrary.org/obo/BFO_0000030>,
+            <http://purl.obolibrary.org/obo/BFO_0000040>,
+            owl:Thing .
+
+    <https://example.org/health/resource/patient/76959585> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000004>,
+            <http://purl.obolibrary.org/obo/BFO_0000030>,
+            <http://purl.obolibrary.org/obo/BFO_0000040>,
+            owl:Thing .
+
+    <https://example.org/health/resource/patient/77586282> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000004>,
+            <http://purl.obolibrary.org/obo/BFO_0000030>,
+            <http://purl.obolibrary.org/obo/BFO_0000040>,
+            owl:Thing .
+
+    <https://example.org/health/resource/patient/7882857> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000004>,
+            <http://purl.obolibrary.org/obo/BFO_0000030>,
+            <http://purl.obolibrary.org/obo/BFO_0000040>,
+            owl:Thing .
+
+    <https://example.org/health/resource/patient/795222> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000004>,
+            <http://purl.obolibrary.org/obo/BFO_0000030>,
+            <http://purl.obolibrary.org/obo/BFO_0000040>,
+            owl:Thing .
+
+    <https://example.org/health/resource/patient/8450352> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000004>,
+            <http://purl.obolibrary.org/obo/BFO_0000030>,
+            <http://purl.obolibrary.org/obo/BFO_0000040>,
+            owl:Thing .
+
+    <https://example.org/health/resource/patient/85504905> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000004>,
+            <http://purl.obolibrary.org/obo/BFO_0000030>,
+            <http://purl.obolibrary.org/obo/BFO_0000040>,
+            owl:Thing .
+
+    <https://example.org/health/resource/patient/86240259> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000004>,
+            <http://purl.obolibrary.org/obo/BFO_0000030>,
+            <http://purl.obolibrary.org/obo/BFO_0000040>,
+            owl:Thing .
+
+    <https://example.org/health/resource/patient/88614963> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000004>,
+            <http://purl.obolibrary.org/obo/BFO_0000030>,
+            <http://purl.obolibrary.org/obo/BFO_0000040>,
+            owl:Thing .
+
+    <https://example.org/health/resource/patient/89193870> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000004>,
+            <http://purl.obolibrary.org/obo/BFO_0000030>,
+            <http://purl.obolibrary.org/obo/BFO_0000040>,
+            owl:Thing .
+
+    <https://example.org/health/resource/patient/920601> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000004>,
+            <http://purl.obolibrary.org/obo/BFO_0000030>,
+            <http://purl.obolibrary.org/obo/BFO_0000040>,
+            owl:Thing .
+
+    <https://example.org/health/resource/patient/924174> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000004>,
+            <http://purl.obolibrary.org/obo/BFO_0000030>,
+            <http://purl.obolibrary.org/obo/BFO_0000040>,
+            owl:Thing .
+
+    <https://example.org/health/resource/patient/95387058> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000004>,
+            <http://purl.obolibrary.org/obo/BFO_0000030>,
+            <http://purl.obolibrary.org/obo/BFO_0000040>,
+            owl:Thing .
+
+    <https://example.org/health/resource/patient/961101> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000004>,
+            <http://purl.obolibrary.org/obo/BFO_0000030>,
+            <http://purl.obolibrary.org/obo/BFO_0000040>,
+            owl:Thing .
+
+    <https://example.org/health/icd9-source/250.02> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000031>,
+            owl:Thing,
+            ns1:CodeConcept .
+
+    <https://example.org/health/icd9-source/428> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000031>,
+            owl:Thing,
+            ns1:CodeConcept .
+
+    <https://example.org/health/icd9-source/493> a <http://purl.obolibrary.org/obo/BFO_0000001>,
+            <http://purl.obolibrary.org/obo/BFO_0000002>,
+            <http://purl.obolibrary.org/obo/BFO_0000031>,
+            owl:Thing,
+            ns1:CodeConcept .
+}
+

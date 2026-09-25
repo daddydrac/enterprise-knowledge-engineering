@@ -1,0 +1,213 @@
+{
+  "engine": "RDFLib 7.6.0",
+  "results": [
+    {
+      "query": "01_source_records.rq",
+      "scope": "asserted",
+      "form": "SELECT",
+      "expected": 60,
+      "actual": 60,
+      "passed": true
+    },
+    {
+      "query": "02_record_count.rq",
+      "scope": "asserted",
+      "form": "SELECT",
+      "expected": 1,
+      "actual": 1,
+      "passed": true
+    },
+    {
+      "query": "03_respiratory_records.rq",
+      "scope": "asserted",
+      "form": "SELECT",
+      "expected": 20,
+      "actual": 20,
+      "passed": true
+    },
+    {
+      "query": "04_optional_a1c.rq",
+      "scope": "asserted",
+      "form": "SELECT",
+      "expected": 60,
+      "actual": 60,
+      "passed": true
+    },
+    {
+      "query": "05_missing_a1c.rq",
+      "scope": "asserted",
+      "form": "SELECT",
+      "expected": 42,
+      "actual": 42,
+      "passed": true
+    },
+    {
+      "query": "06_minus_shared.rq",
+      "scope": "asserted",
+      "form": "SELECT",
+      "expected": 42,
+      "actual": 42,
+      "passed": true
+    },
+    {
+      "query": "07_minus_unshared.rq",
+      "scope": "asserted",
+      "form": "SELECT",
+      "expected": 60,
+      "actual": 60,
+      "passed": true
+    },
+    {
+      "query": "08_filter_inside_optional.rq",
+      "scope": "asserted",
+      "form": "SELECT",
+      "expected": 60,
+      "actual": 60,
+      "passed": true
+    },
+    {
+      "query": "09_filter_outside_optional.rq",
+      "scope": "asserted",
+      "form": "SELECT",
+      "expected": 13,
+      "actual": 13,
+      "passed": true
+    },
+    {
+      "query": "10_count_bound.rq",
+      "scope": "asserted",
+      "form": "SELECT",
+      "expected": 1,
+      "actual": 1,
+      "passed": true
+    },
+    {
+      "query": "11_group_counts.rq",
+      "scope": "asserted",
+      "form": "SELECT",
+      "expected": 3,
+      "actual": 3,
+      "passed": true
+    },
+    {
+      "query": "12_bind_and_values.rq",
+      "scope": "asserted",
+      "form": "SELECT",
+      "expected": 20,
+      "actual": 20,
+      "passed": true
+    },
+    {
+      "query": "13_coalesce.rq",
+      "scope": "asserted",
+      "form": "SELECT",
+      "expected": 60,
+      "actual": 60,
+      "passed": true
+    },
+    {
+      "query": "14_path_plus.rq",
+      "scope": "vocabulary",
+      "form": "SELECT",
+      "expected": 1,
+      "actual": 1,
+      "passed": true
+    },
+    {
+      "query": "15_path_star.rq",
+      "scope": "vocabulary",
+      "form": "SELECT",
+      "expected": 2,
+      "actual": 2,
+      "passed": true
+    },
+    {
+      "query": "16_accepted_mappings.rq",
+      "scope": "vocabulary",
+      "form": "SELECT",
+      "expected": 3,
+      "actual": 3,
+      "passed": true
+    },
+    {
+      "query": "17_unapproved_mapping.rq",
+      "scope": "vocabulary",
+      "form": "SELECT",
+      "expected": 0,
+      "actual": 0,
+      "passed": true
+    },
+    {
+      "query": "18_english_labels.rq",
+      "scope": "vocabulary",
+      "form": "SELECT",
+      "expected": 17,
+      "actual": 17,
+      "passed": true
+    },
+    {
+      "query": "19_review_evidence.rq",
+      "scope": "dataset",
+      "form": "SELECT",
+      "expected": 20,
+      "actual": 20,
+      "passed": true
+    },
+    {
+      "query": "20_empty_default.rq",
+      "scope": "dataset",
+      "form": "SELECT",
+      "expected": 0,
+      "actual": 0,
+      "passed": true
+    },
+    {
+      "query": "21_union_members.rq",
+      "scope": "schema",
+      "form": "SELECT",
+      "expected": 2,
+      "actual": 2,
+      "passed": true
+    },
+    {
+      "query": "22_asserted_path_limit.rq",
+      "scope": "asserted_schema",
+      "form": "SELECT",
+      "expected": 0,
+      "actual": 0,
+      "passed": true
+    },
+    {
+      "query": "23_subquery.rq",
+      "scope": "asserted",
+      "form": "SELECT",
+      "expected": 3,
+      "actual": 3,
+      "passed": true
+    },
+    {
+      "query": "24_construct_evidence.rq",
+      "scope": "asserted",
+      "form": "CONSTRUCT",
+      "expected": 60,
+      "actual": 60,
+      "passed": true
+    },
+    {
+      "query": "25_ask_records.rq",
+      "scope": "asserted",
+      "form": "ASK",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "query": "26_union.rq",
+      "scope": "asserted",
+      "form": "SELECT",
+      "expected": 40,
+      "actual": 40,
+      "passed": true
+    }
+  ]
+}

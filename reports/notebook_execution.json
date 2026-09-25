@@ -1,0 +1,157 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "backend": "Fresh IPython process per notebook, sequential cell execution",
+  "scope": "Executable cell behavior verified. Jupyter TCP and IPC transports are unavailable in the build environment; browser UI and external endpoints not tested.",
+  "results": [
+    {
+      "notebook": "solutions/enterprise/E00_reproduce_the_source_and_the_environment.ipynb",
+      "passed": true,
+      "code_cells": 5,
+      "seconds": 1.82
+    },
+    {
+      "notebook": "solutions/enterprise/E01_begin_with_a_decision_and_a_product_owner.ipynb",
+      "passed": true,
+      "code_cells": 5,
+      "seconds": 2.29
+    },
+    {
+      "notebook": "solutions/enterprise/E02_map_records_encounters_and_people_into_rdf.ipynb",
+      "passed": true,
+      "code_cells": 5,
+      "seconds": 1.83
+    },
+    {
+      "notebook": "solutions/enterprise/E03_build_a_controlled_vocabulary_and_a_taxonomy.ipynb",
+      "passed": true,
+      "code_cells": 5,
+      "seconds": 2.28
+    },
+    {
+      "notebook": "solutions/enterprise/E04_align_taxonomies_across_code_systems.ipynb",
+      "passed": true,
+      "code_cells": 5,
+      "seconds": 2.94
+    },
+    {
+      "notebook": "solutions/enterprise/E05_separate_tbox_abox_and_rbox.ipynb",
+      "passed": true,
+      "code_cells": 5,
+      "seconds": 3.48
+    },
+    {
+      "notebook": "solutions/enterprise/E06_align_to_bfo_and_define_upper_and_lower_bounds.ipynb",
+      "passed": true,
+      "code_cells": 5,
+      "seconds": 3.36
+    },
+    {
+      "notebook": "solutions/enterprise/E07_run_owl_dl_and_understand_its_limits.ipynb",
+      "passed": true,
+      "code_cells": 6,
+      "seconds": 5.55
+    },
+    {
+      "notebook": "solutions/enterprise/E08_validate_contracts_with_shacl.ipynb",
+      "passed": true,
+      "code_cells": 5,
+      "seconds": 1.69
+    },
+    {
+      "notebook": "solutions/enterprise/E09_bridge_a_warehouse_and_an_ontology.ipynb",
+      "passed": true,
+      "code_cells": 5,
+      "seconds": 3.74
+    },
+    {
+      "notebook": "solutions/enterprise/E10_query_evidence_across_named_graphs.ipynb",
+      "passed": true,
+      "code_cells": 5,
+      "seconds": 3.56
+    },
+    {
+      "notebook": "solutions/enterprise/E11_extend_regress_and_retract_an_ontology.ipynb",
+      "passed": true,
+      "code_cells": 5,
+      "seconds": 5.31
+    },
+    {
+      "notebook": "solutions/enterprise/E12_catalog_a_semantic_data_product.ipynb",
+      "passed": true,
+      "code_cells": 5,
+      "seconds": 1.48
+    },
+    {
+      "notebook": "solutions/enterprise/E13_deliver_the_capstone_and_measure_adoption.ipynb",
+      "passed": true,
+      "code_cells": 5,
+      "seconds": 3.29
+    },
+    {
+      "notebook": "solutions/enterprise/E14_use_a_small_swrl_rule_deliberately.ipynb",
+      "passed": true,
+      "code_cells": 5,
+      "seconds": 2.16
+    },
+    {
+      "notebook": "solutions/sparql/S00_inspect_the_graph_before_writing_a_query.ipynb",
+      "passed": true,
+      "code_cells": 5,
+      "seconds": 1.66
+    },
+    {
+      "notebook": "solutions/sparql/S01_filter_literals_and_bind_values.ipynb",
+      "passed": true,
+      "code_cells": 5,
+      "seconds": 2.56
+    },
+    {
+      "notebook": "solutions/sparql/S02_keep_missing_values_and_negation_precise.ipynb",
+      "passed": true,
+      "code_cells": 5,
+      "seconds": 1.99
+    },
+    {
+      "notebook": "solutions/sparql/S03_aggregate_at_the_correct_grain.ipynb",
+      "passed": true,
+      "code_cells": 5,
+      "seconds": 2.49
+    },
+    {
+      "notebook": "solutions/sparql/S04_walk_taxonomy_paths_without_claiming_dl_reasoning.ipynb",
+      "passed": true,
+      "code_cells": 5,
+      "seconds": 4.18
+    },
+    {
+      "notebook": "solutions/sparql/S05_manage_graphs_and_reversible_updates.ipynb",
+      "passed": true,
+      "code_cells": 5,
+      "seconds": 2.86
+    },
+    {
+      "notebook": "solutions/sparql/S06_query_owl_dl_results_with_a_stated_contract.ipynb",
+      "passed": true,
+      "code_cells": 5,
+      "seconds": 3.82
+    },
+    {
+      "notebook": "solutions/sparql/S07_inspect_blank_nodes_and_owl_lists.ipynb",
+      "passed": true,
+      "code_cells": 5,
+      "seconds": 2.14
+    },
+    {
+      "notebook": "solutions/sparql/S08_debug_portability_and_application_boundaries.ipynb",
+      "passed": true,
+      "code_cells": 5,
+      "seconds": 1.84
+    },
+    {
+      "notebook": "solutions/sparql/S09_build_an_explainable_query_product.ipynb",
+      "passed": true,
+      "code_cells": 5,
+      "seconds": 3.33
+    }
+  ]
+}

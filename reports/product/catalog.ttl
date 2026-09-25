@@ -1,0 +1,18 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <https://example.org/health/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+
+<https://example.org/health/resource/product/encounter-code-review> a dcat:Dataset ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:source <https://www.kaggle.com/datasets/brandao/diabetes> ;
+    dcterms:title "Encounter code review learning product"@en ;
+    dcat:distribution <https://example.org/health/resource/distribution/encounters-v1> ;
+    dcat:version "1.0.0" ;
+    prov:wasDerivedFrom <https://doi.org/10.24432/C5230J> .
+
+<https://example.org/health/resource/distribution/encounters-v1> a dcat:Distribution ;
+    dcterms:format "text/csv" ;
+    dcat:downloadURL <urn:artifact:data:encounters.csv> ;
+    ns1:sha256 "4e18acdd9c32c491626d117bcb27bebcff0ecd331bd243fd57baffab4492f250" .
+

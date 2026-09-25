@@ -1,0 +1,24 @@
+{
+  "edition": "2026.1",
+  "source_rows": 60,
+  "source_code_groups": 3,
+  "learner_notebooks": 25,
+  "solution_notebooks": 25,
+  "executed_solution_notebooks": 25,
+  "executed_learner_walkthroughs": 25,
+  "solution_code_cells": 126,
+  "semantic_checks_passed": 33,
+  "query_files_executed": 26,
+  "execution_backend": "Fresh IPython process per notebook, sequential cell execution",
+  "swrl_result": "20 inferred record/person pairs match source in E14",
+  "not_verified": [
+    "Jupyter browser UI",
+    "External endpoint deployment",
+    "Cross-engine benchmarks",
+    "Human adoption pilot"
+  ],
+  "book_pages": {
+    "primer": 47,
+    "workbook": 55
+  }
+}

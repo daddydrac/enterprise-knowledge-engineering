@@ -1,0 +1,138 @@
+{
+  "checks": [
+    {
+      "name": "Source subset checksum",
+      "passed": true
+    },
+    {
+      "name": "Source strata retained",
+      "passed": true
+    },
+    {
+      "name": "No unsupported new code assignment",
+      "passed": true
+    },
+    {
+      "name": "Source tokens preserve punctuation",
+      "passed": true
+    },
+    {
+      "name": "No result category manufactured for missing tests",
+      "passed": true
+    },
+    {
+      "name": "Baseline SHACL",
+      "passed": true
+    },
+    {
+      "name": "Taxonomy editorial checks",
+      "passed": true
+    },
+    {
+      "name": "Proposal does not assert a mapping",
+      "passed": true
+    },
+    {
+      "name": "Accepted mapping direction",
+      "passed": true
+    },
+    {
+      "name": "Hierarchy cycle rejected",
+      "passed": true
+    },
+    {
+      "name": "Duplicate preferred label rejected",
+      "passed": true
+    },
+    {
+      "name": "Complete import closure includes BFO",
+      "passed": true
+    },
+    {
+      "name": "OWL 2 DL profile accepted",
+      "passed": true
+    },
+    {
+      "name": "RL profile correctly rejected",
+      "passed": true
+    },
+    {
+      "name": "Baseline consistency and satisfiability",
+      "passed": true
+    },
+    {
+      "name": "Named review answers exact",
+      "passed": true
+    },
+    {
+      "name": "Union class named answers",
+      "passed": true
+    },
+    {
+      "name": "Property chain entailed by direct reasoner API",
+      "passed": true
+    },
+    {
+      "name": "Type export does not claim full object-property closure",
+      "passed": true
+    },
+    {
+      "name": "Record aligned to BFO generically dependent continuant",
+      "passed": true
+    },
+    {
+      "name": "Existential witness need not be named in graph",
+      "passed": true
+    },
+    {
+      "name": "Unsatisfiable class can leave ontology consistent",
+      "passed": true
+    },
+    {
+      "name": "Instance of unsatisfiable class causes inconsistency",
+      "passed": true
+    },
+    {
+      "name": "Cardinality on a chain superproperty rejected",
+      "passed": true
+    },
+    {
+      "name": "No unique-name assumption; equality can satisfy max one",
+      "passed": true
+    },
+    {
+      "name": "Explicit difference clashes with max one",
+      "passed": true
+    },
+    {
+      "name": "Extension adds exactly cardiac records",
+      "passed": true
+    },
+    {
+      "name": "Rebuild removes unsupported conclusion",
+      "passed": true
+    },
+    {
+      "name": "Default graph remains empty",
+      "passed": true
+    },
+    {
+      "name": "Named graph evidence join",
+      "passed": true
+    },
+    {
+      "name": "OWL list structure survives RDF round trip",
+      "passed": true
+    },
+    {
+      "name": "Missing-value query exact",
+      "passed": true
+    },
+    {
+      "name": "SQL and SPARQL agree at source grain",
+      "passed": true
+    }
+  ],
+  "passed": 33,
+  "scope": "Local RDFLib, OWLAPI/HermiT and pySHACL checks. No external endpoint or human pilot tested."
+}

@@ -1,0 +1,24 @@
+{
+  "version": "1.0.0",
+  "review_records": 20,
+  "dl_profile": true,
+  "consistent": true,
+  "query_coverage": "Named class memberships of named individuals only",
+  "deployment": "Local artifacts only",
+  "source_sha256": "4e18acdd9c32c491626d117bcb27bebcff0ecd331bd243fd57baffab4492f250",
+  "bfo": {
+    "repository": "https://github.com/BFO-ontology/BFO-2020",
+    "commit": "0900316ea9d330f599bd110f7f6504ed33a87fc8",
+    "path": "21838-2/owl/bfo-core.owl",
+    "sha256": "b65c817a7a25501499d287981aea972f2ce33146dcfb855915a459f6a051718d",
+    "license": "CC BY 4.0",
+    "changes": "None; complete core file vendored. Imports absent in this file."
+  },
+  "artifacts": {
+    "answer_evidence.json": "75025369bb7dd8e12812cb1e7c266155f8f15ff1a761b3376d2c6510e9d15d76",
+    "catalog.ttl": "726fddc4a7ae9d2459f0b66e535019d31969e76f4312bd0925a10322f0fe5431",
+    "review_product.trig": "055f312e6bc0add1bb0d0cac14445051c5ccf9d8ae80ee97a8ee68f4d6e33365",
+    "review_queue.csv": "8fe1714aaa99c724ecf301dbba7d4f59f6d53c1f73a8973d3ae0d626610c4877"
+  },
+  "human_pilot": "Not yet measured; see docs/pilot_scorecard.json"
+}

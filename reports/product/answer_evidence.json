@@ -1,0 +1,342 @@
+[
+  {
+    "record_iri": "https://example.org/health/resource/record/2600796",
+    "encounter_id": "2600796",
+    "source_code": "493",
+    "source_code_system": "ICD-9-CM source token",
+    "conclusion": "https://example.org/health/ontology/ReviewCandidate",
+    "support": [
+      "Source primary code 493",
+      "Adapter: source token 493 belongs to RespiratoryCode",
+      "Equivalent class: EncounterRecord and primaryCode some RespiratoryCode",
+      "RespiratoryCodedRecord subclassOf ReviewCandidate"
+    ],
+    "proof_kind": "Auditable proof sketch, not an automatically minimal justification",
+    "source_sha256": "4e18acdd9c32c491626d117bcb27bebcff0ecd331bd243fd57baffab4492f250",
+    "ontology_version": "1.0.0",
+    "claim_scope": "Terminology-review routing of source records"
+  },
+  {
+    "record_iri": "https://example.org/health/resource/record/4084572",
+    "encounter_id": "4084572",
+    "source_code": "493",
+    "source_code_system": "ICD-9-CM source token",
+    "conclusion": "https://example.org/health/ontology/ReviewCandidate",
+    "support": [
+      "Source primary code 493",
+      "Adapter: source token 493 belongs to RespiratoryCode",
+      "Equivalent class: EncounterRecord and primaryCode some RespiratoryCode",
+      "RespiratoryCodedRecord subclassOf ReviewCandidate"
+    ],
+    "proof_kind": "Auditable proof sketch, not an automatically minimal justification",
+    "source_sha256": "4e18acdd9c32c491626d117bcb27bebcff0ecd331bd243fd57baffab4492f250",
+    "ontology_version": "1.0.0",
+    "claim_scope": "Terminology-review routing of source records"
+  },
+  {
+    "record_iri": "https://example.org/health/resource/record/4140282",
+    "encounter_id": "4140282",
+    "source_code": "493",
+    "source_code_system": "ICD-9-CM source token",
+    "conclusion": "https://example.org/health/ontology/ReviewCandidate",
+    "support": [
+      "Source primary code 493",
+      "Adapter: source token 493 belongs to RespiratoryCode",
+      "Equivalent class: EncounterRecord and primaryCode some RespiratoryCode",
+      "RespiratoryCodedRecord subclassOf ReviewCandidate"
+    ],
+    "proof_kind": "Auditable proof sketch, not an automatically minimal justification",
+    "source_sha256": "4e18acdd9c32c491626d117bcb27bebcff0ecd331bd243fd57baffab4492f250",
+    "ontology_version": "1.0.0",
+    "claim_scope": "Terminology-review routing of source records"
+  },
+  {
+    "record_iri": "https://example.org/health/resource/record/7287294",
+    "encounter_id": "7287294",
+    "source_code": "493",
+    "source_code_system": "ICD-9-CM source token",
+    "conclusion": "https://example.org/health/ontology/ReviewCandidate",
+    "support": [
+      "Source primary code 493",
+      "Adapter: source token 493 belongs to RespiratoryCode",
+      "Equivalent class: EncounterRecord and primaryCode some RespiratoryCode",
+      "RespiratoryCodedRecord subclassOf ReviewCandidate"
+    ],
+    "proof_kind": "Auditable proof sketch, not an automatically minimal justification",
+    "source_sha256": "4e18acdd9c32c491626d117bcb27bebcff0ecd331bd243fd57baffab4492f250",
+    "ontology_version": "1.0.0",
+    "claim_scope": "Terminology-review routing of source records"
+  },
+  {
+    "record_iri": "https://example.org/health/resource/record/7668324",
+    "encounter_id": "7668324",
+    "source_code": "493",
+    "source_code_system": "ICD-9-CM source token",
+    "conclusion": "https://example.org/health/ontology/ReviewCandidate",
+    "support": [
+      "Source primary code 493",
+      "Adapter: source token 493 belongs to RespiratoryCode",
+      "Equivalent class: EncounterRecord and primaryCode some RespiratoryCode",
+      "RespiratoryCodedRecord subclassOf ReviewCandidate"
+    ],
+    "proof_kind": "Auditable proof sketch, not an automatically minimal justification",
+    "source_sha256": "4e18acdd9c32c491626d117bcb27bebcff0ecd331bd243fd57baffab4492f250",
+    "ontology_version": "1.0.0",
+    "claim_scope": "Terminology-review routing of source records"
+  },
+  {
+    "record_iri": "https://example.org/health/resource/record/7946712",
+    "encounter_id": "7946712",
+    "source_code": "493",
+    "source_code_system": "ICD-9-CM source token",
+    "conclusion": "https://example.org/health/ontology/ReviewCandidate",
+    "support": [
+      "Source primary code 493",
+      "Adapter: source token 493 belongs to RespiratoryCode",
+      "Equivalent class: EncounterRecord and primaryCode some RespiratoryCode",
+      "RespiratoryCodedRecord subclassOf ReviewCandidate"
+    ],
+    "proof_kind": "Auditable proof sketch, not an automatically minimal justification",
+    "source_sha256": "4e18acdd9c32c491626d117bcb27bebcff0ecd331bd243fd57baffab4492f250",
+    "ontology_version": "1.0.0",
+    "claim_scope": "Terminology-review routing of source records"
+  },
+  {
+    "record_iri": "https://example.org/health/resource/record/10555854",
+    "encounter_id": "10555854",
+    "source_code": "493",
+    "source_code_system": "ICD-9-CM source token",
+    "conclusion": "https://example.org/health/ontology/ReviewCandidate",
+    "support": [
+      "Source primary code 493",
+      "Adapter: source token 493 belongs to RespiratoryCode",
+      "Equivalent class: EncounterRecord and primaryCode some RespiratoryCode",
+      "RespiratoryCodedRecord subclassOf ReviewCandidate"
+    ],
+    "proof_kind": "Auditable proof sketch, not an automatically minimal justification",
+    "source_sha256": "4e18acdd9c32c491626d117bcb27bebcff0ecd331bd243fd57baffab4492f250",
+    "ontology_version": "1.0.0",
+    "claim_scope": "Terminology-review routing of source records"
+  },
+  {
+    "record_iri": "https://example.org/health/resource/record/12846246",
+    "encounter_id": "12846246",
+    "source_code": "493",
+    "source_code_system": "ICD-9-CM source token",
+    "conclusion": "https://example.org/health/ontology/ReviewCandidate",
+    "support": [
+      "Source primary code 493",
+      "Adapter: source token 493 belongs to RespiratoryCode",
+      "Equivalent class: EncounterRecord and primaryCode some RespiratoryCode",
+      "RespiratoryCodedRecord subclassOf ReviewCandidate"
+    ],
+    "proof_kind": "Auditable proof sketch, not an automatically minimal justification",
+    "source_sha256": "4e18acdd9c32c491626d117bcb27bebcff0ecd331bd243fd57baffab4492f250",
+    "ontology_version": "1.0.0",
+    "claim_scope": "Terminology-review routing of source records"
+  },
+  {
+    "record_iri": "https://example.org/health/resource/record/13056282",
+    "encounter_id": "13056282",
+    "source_code": "493",
+    "source_code_system": "ICD-9-CM source token",
+    "conclusion": "https://example.org/health/ontology/ReviewCandidate",
+    "support": [
+      "Source primary code 493",
+      "Adapter: source token 493 belongs to RespiratoryCode",
+      "Equivalent class: EncounterRecord and primaryCode some RespiratoryCode",
+      "RespiratoryCodedRecord subclassOf ReviewCandidate"
+    ],
+    "proof_kind": "Auditable proof sketch, not an automatically minimal justification",
+    "source_sha256": "4e18acdd9c32c491626d117bcb27bebcff0ecd331bd243fd57baffab4492f250",
+    "ontology_version": "1.0.0",
+    "claim_scope": "Terminology-review routing of source records"
+  },
+  {
+    "record_iri": "https://example.org/health/resource/record/14964918",
+    "encounter_id": "14964918",
+    "source_code": "493",
+    "source_code_system": "ICD-9-CM source token",
+    "conclusion": "https://example.org/health/ontology/ReviewCandidate",
+    "support": [
+      "Source primary code 493",
+      "Adapter: source token 493 belongs to RespiratoryCode",
+      "Equivalent class: EncounterRecord and primaryCode some RespiratoryCode",
+      "RespiratoryCodedRecord subclassOf ReviewCandidate"
+    ],
+    "proof_kind": "Auditable proof sketch, not an automatically minimal justification",
+    "source_sha256": "4e18acdd9c32c491626d117bcb27bebcff0ecd331bd243fd57baffab4492f250",
+    "ontology_version": "1.0.0",
+    "claim_scope": "Terminology-review routing of source records"
+  },
+  {
+    "record_iri": "https://example.org/health/resource/record/15996702",
+    "encounter_id": "15996702",
+    "source_code": "493",
+    "source_code_system": "ICD-9-CM source token",
+    "conclusion": "https://example.org/health/ontology/ReviewCandidate",
+    "support": [
+      "Source primary code 493",
+      "Adapter: source token 493 belongs to RespiratoryCode",
+      "Equivalent class: EncounterRecord and primaryCode some RespiratoryCode",
+      "RespiratoryCodedRecord subclassOf ReviewCandidate"
+    ],
+    "proof_kind": "Auditable proof sketch, not an automatically minimal justification",
+    "source_sha256": "4e18acdd9c32c491626d117bcb27bebcff0ecd331bd243fd57baffab4492f250",
+    "ontology_version": "1.0.0",
+    "claim_scope": "Terminology-review routing of source records"
+  },
+  {
+    "record_iri": "https://example.org/health/resource/record/16009362",
+    "encounter_id": "16009362",
+    "source_code": "493",
+    "source_code_system": "ICD-9-CM source token",
+    "conclusion": "https://example.org/health/ontology/ReviewCandidate",
+    "support": [
+      "Source primary code 493",
+      "Adapter: source token 493 belongs to RespiratoryCode",
+      "Equivalent class: EncounterRecord and primaryCode some RespiratoryCode",
+      "RespiratoryCodedRecord subclassOf ReviewCandidate"
+    ],
+    "proof_kind": "Auditable proof sketch, not an automatically minimal justification",
+    "source_sha256": "4e18acdd9c32c491626d117bcb27bebcff0ecd331bd243fd57baffab4492f250",
+    "ontology_version": "1.0.0",
+    "claim_scope": "Terminology-review routing of source records"
+  },
+  {
+    "record_iri": "https://example.org/health/resource/record/16426272",
+    "encounter_id": "16426272",
+    "source_code": "493",
+    "source_code_system": "ICD-9-CM source token",
+    "conclusion": "https://example.org/health/ontology/ReviewCandidate",
+    "support": [
+      "Source primary code 493",
+      "Adapter: source token 493 belongs to RespiratoryCode",
+      "Equivalent class: EncounterRecord and primaryCode some RespiratoryCode",
+      "RespiratoryCodedRecord subclassOf ReviewCandidate"
+    ],
+    "proof_kind": "Auditable proof sketch, not an automatically minimal justification",
+    "source_sha256": "4e18acdd9c32c491626d117bcb27bebcff0ecd331bd243fd57baffab4492f250",
+    "ontology_version": "1.0.0",
+    "claim_scope": "Terminology-review routing of source records"
+  },
+  {
+    "record_iri": "https://example.org/health/resource/record/16523640",
+    "encounter_id": "16523640",
+    "source_code": "493",
+    "source_code_system": "ICD-9-CM source token",
+    "conclusion": "https://example.org/health/ontology/ReviewCandidate",
+    "support": [
+      "Source primary code 493",
+      "Adapter: source token 493 belongs to RespiratoryCode",
+      "Equivalent class: EncounterRecord and primaryCode some RespiratoryCode",
+      "RespiratoryCodedRecord subclassOf ReviewCandidate"
+    ],
+    "proof_kind": "Auditable proof sketch, not an automatically minimal justification",
+    "source_sha256": "4e18acdd9c32c491626d117bcb27bebcff0ecd331bd243fd57baffab4492f250",
+    "ontology_version": "1.0.0",
+    "claim_scope": "Terminology-review routing of source records"
+  },
+  {
+    "record_iri": "https://example.org/health/resource/record/17149320",
+    "encounter_id": "17149320",
+    "source_code": "493",
+    "source_code_system": "ICD-9-CM source token",
+    "conclusion": "https://example.org/health/ontology/ReviewCandidate",
+    "support": [
+      "Source primary code 493",
+      "Adapter: source token 493 belongs to RespiratoryCode",
+      "Equivalent class: EncounterRecord and primaryCode some RespiratoryCode",
+      "RespiratoryCodedRecord subclassOf ReviewCandidate"
+    ],
+    "proof_kind": "Auditable proof sketch, not an automatically minimal justification",
+    "source_sha256": "4e18acdd9c32c491626d117bcb27bebcff0ecd331bd243fd57baffab4492f250",
+    "ontology_version": "1.0.0",
+    "claim_scope": "Terminology-review routing of source records"
+  },
+  {
+    "record_iri": "https://example.org/health/resource/record/17215578",
+    "encounter_id": "17215578",
+    "source_code": "493",
+    "source_code_system": "ICD-9-CM source token",
+    "conclusion": "https://example.org/health/ontology/ReviewCandidate",
+    "support": [
+      "Source primary code 493",
+      "Adapter: source token 493 belongs to RespiratoryCode",
+      "Equivalent class: EncounterRecord and primaryCode some RespiratoryCode",
+      "RespiratoryCodedRecord subclassOf ReviewCandidate"
+    ],
+    "proof_kind": "Auditable proof sketch, not an automatically minimal justification",
+    "source_sha256": "4e18acdd9c32c491626d117bcb27bebcff0ecd331bd243fd57baffab4492f250",
+    "ontology_version": "1.0.0",
+    "claim_scope": "Terminology-review routing of source records"
+  },
+  {
+    "record_iri": "https://example.org/health/resource/record/17228586",
+    "encounter_id": "17228586",
+    "source_code": "493",
+    "source_code_system": "ICD-9-CM source token",
+    "conclusion": "https://example.org/health/ontology/ReviewCandidate",
+    "support": [
+      "Source primary code 493",
+      "Adapter: source token 493 belongs to RespiratoryCode",
+      "Equivalent class: EncounterRecord and primaryCode some RespiratoryCode",
+      "RespiratoryCodedRecord subclassOf ReviewCandidate"
+    ],
+    "proof_kind": "Auditable proof sketch, not an automatically minimal justification",
+    "source_sha256": "4e18acdd9c32c491626d117bcb27bebcff0ecd331bd243fd57baffab4492f250",
+    "ontology_version": "1.0.0",
+    "claim_scope": "Terminology-review routing of source records"
+  },
+  {
+    "record_iri": "https://example.org/health/resource/record/17236530",
+    "encounter_id": "17236530",
+    "source_code": "493",
+    "source_code_system": "ICD-9-CM source token",
+    "conclusion": "https://example.org/health/ontology/ReviewCandidate",
+    "support": [
+      "Source primary code 493",
+      "Adapter: source token 493 belongs to RespiratoryCode",
+      "Equivalent class: EncounterRecord and primaryCode some RespiratoryCode",
+      "RespiratoryCodedRecord subclassOf ReviewCandidate"
+    ],
+    "proof_kind": "Auditable proof sketch, not an automatically minimal justification",
+    "source_sha256": "4e18acdd9c32c491626d117bcb27bebcff0ecd331bd243fd57baffab4492f250",
+    "ontology_version": "1.0.0",
+    "claim_scope": "Terminology-review routing of source records"
+  },
+  {
+    "record_iri": "https://example.org/health/resource/record/17612514",
+    "encounter_id": "17612514",
+    "source_code": "493",
+    "source_code_system": "ICD-9-CM source token",
+    "conclusion": "https://example.org/health/ontology/ReviewCandidate",
+    "support": [
+      "Source primary code 493",
+      "Adapter: source token 493 belongs to RespiratoryCode",
+      "Equivalent class: EncounterRecord and primaryCode some RespiratoryCode",
+      "RespiratoryCodedRecord subclassOf ReviewCandidate"
+    ],
+    "proof_kind": "Auditable proof sketch, not an automatically minimal justification",
+    "source_sha256": "4e18acdd9c32c491626d117bcb27bebcff0ecd331bd243fd57baffab4492f250",
+    "ontology_version": "1.0.0",
+    "claim_scope": "Terminology-review routing of source records"
+  },
+  {
+    "record_iri": "https://example.org/health/resource/record/17729898",
+    "encounter_id": "17729898",
+    "source_code": "493",
+    "source_code_system": "ICD-9-CM source token",
+    "conclusion": "https://example.org/health/ontology/ReviewCandidate",
+    "support": [
+      "Source primary code 493",
+      "Adapter: source token 493 belongs to RespiratoryCode",
+      "Equivalent class: EncounterRecord and primaryCode some RespiratoryCode",
+      "RespiratoryCodedRecord subclassOf ReviewCandidate"
+    ],
+    "proof_kind": "Auditable proof sketch, not an automatically minimal justification",
+    "source_sha256": "4e18acdd9c32c491626d117bcb27bebcff0ecd331bd243fd57baffab4492f250",
+    "ontology_version": "1.0.0",
+    "claim_scope": "Terminology-review routing of source records"
+  }
+]
