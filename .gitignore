@@ -1,0 +1,87 @@
+# Enterprise Knowledge Engineering
+# Keep notebooks, solutions, PDFs, ontology files, curated data, verification
+# reports, licenses, book sources, and dependency lock files in version control.
+
+# Python environments and bytecode
+.venv/
+.venv-*/
+venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python packaging and build output
+/build/
+/dist/
+*.egg-info/
+.eggs/
+*.egg
+/wheels/
+pip-wheel-metadata/
+
+# Jupyter and IPython local state
+.ipynb_checkpoints/
+.ipython/
+.jupyter/
+# Keep .ipynb files, including the executed solutions.
+
+# Tool caches and local coverage output
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+
+# Local environment settings and credentials
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+.secrets/
+/secrets/
+.kaggle/
+kaggle.json
+.aws/
+
+# Local downloads and scratch work
+/downloads/
+/data/downloads/
+/data/raw/
+/scratch/
+/tmp/
+/temp/
+.tmp/
+*.tmp
+*.temp
+*.log
+/logs/
+
+# Book preview output; published PDFs and editable book sources stay tracked
+/book/_build/
+/book/_render/
+/book/_preview/
+/pdf_qa/
+
+# Java compilation output; retain any intentionally bundled dependencies
+*.class
+
+# Editor and operating-system files
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/tasks.json
+*.swp
+*.swo
+*~
+.DS_Store
+._*
+Thumbs.db
+Desktop.ini
