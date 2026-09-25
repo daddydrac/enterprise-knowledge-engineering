@@ -1,0 +1,36 @@
+@prefix ex: <https://example.org/health/ontology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix bfo: <http://purl.obolibrary.org/obo/> .
+<https://example.org/health/ontology> a owl:Ontology ;
+ owl:versionIRI <https://example.org/health/ontology/1.0.0> ;
+ owl:imports <http://purl.obolibrary.org/obo/bfo.owl> .
+
+ex:Patient a owl:Class ; rdfs:subClassOf bfo:BFO_0000030 .
+ex:HospitalEncounter a owl:Class ; rdfs:subClassOf bfo:BFO_0000015 .
+ex:EncounterRecord a owl:Class ; rdfs:subClassOf bfo:BFO_0000031,
+ [ a owl:Restriction ; owl:onProperty ex:documents ; owl:someValuesFrom ex:HospitalEncounter ] .
+ex:CodeConcept a owl:Class ; rdfs:subClassOf bfo:BFO_0000031 .
+ex:EndocrineCode a owl:Class ; rdfs:subClassOf ex:CodeConcept .
+ex:CardiacCode a owl:Class ; rdfs:subClassOf ex:CodeConcept .
+ex:RespiratoryCode a owl:Class ; rdfs:subClassOf ex:CodeConcept .
+ex:RespiratoryCodedRecord a owl:Class ; owl:equivalentClass [ a owl:Class ;
+ owl:intersectionOf ( ex:EncounterRecord [ a owl:Restriction ; owl:onProperty ex:primaryCode ; owl:someValuesFrom ex:RespiratoryCode ] ) ] ;
+ rdfs:subClassOf ex:ReviewCandidate .
+ex:CardiacCodedRecord a owl:Class ; owl:equivalentClass [ a owl:Class ;
+ owl:intersectionOf ( ex:EncounterRecord [ a owl:Restriction ; owl:onProperty ex:primaryCode ; owl:someValuesFrom ex:CardiacCode ] ) ] .
+ex:ReviewCandidate a owl:Class ; rdfs:subClassOf ex:EncounterRecord .
+ex:CardiopulmonaryRecord a owl:Class ; owl:equivalentClass [ a owl:Class ;
+ owl:unionOf ( ex:CardiacCodedRecord ex:RespiratoryCodedRecord ) ] .
+
+ex:primaryCode a owl:ObjectProperty ; rdfs:domain ex:EncounterRecord ; rdfs:range ex:CodeConcept .
+ex:documents a owl:ObjectProperty ; rdfs:domain ex:EncounterRecord ; rdfs:range ex:HospitalEncounter .
+ex:hasPatient a owl:ObjectProperty ; rdfs:domain ex:HospitalEncounter ; rdfs:range ex:Patient .
+ex:aboutPatient a owl:ObjectProperty ; owl:propertyChainAxiom ( ex:documents ex:hasPatient ) .
+ex:encounterId a owl:DatatypeProperty ; rdfs:domain ex:EncounterRecord ; rdfs:range xsd:string .
+ex:stayDays a owl:DatatypeProperty ; rdfs:domain ex:EncounterRecord ; rdfs:range xsd:integer .
+ex:labProcedureCount a owl:DatatypeProperty ; rdfs:domain ex:EncounterRecord ; rdfs:range xsd:integer .
+ex:a1cCategory a owl:DatatypeProperty ; rdfs:domain ex:EncounterRecord ; rdfs:range xsd:string .
+ex:readmissionCategory a owl:DatatypeProperty ; rdfs:domain ex:EncounterRecord ; rdfs:range xsd:string .

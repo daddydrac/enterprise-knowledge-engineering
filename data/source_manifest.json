@@ -1,0 +1,36 @@
+{
+  "retrieved": "2026-09-25",
+  "kaggle_ref": "brandao/diabetes",
+  "kaggle_version": 1,
+  "kaggle_url": "https://www.kaggle.com/datasets/brandao/diabetes",
+  "download_url": "https://www.kaggle.com/api/v1/datasets/download/brandao/diabetes",
+  "archive_sha256": "818536ae2f12915f35becbc3332cbb52c0543900e05d34933edb98fb772859c3",
+  "source_csv_sha256": "0689e7ec031237dc63031b938805c48377748761a3b26acab621567afa24df97",
+  "subset_sha256": "4e18acdd9c32c491626d117bcb27bebcff0ecd331bd243fd57baffab4492f250",
+  "source_rows": 101766,
+  "subset_rows": 60,
+  "source_columns": [
+    "encounter_id",
+    "patient_nbr",
+    "diag_1",
+    "time_in_hospital",
+    "num_lab_procedures",
+    "A1Cresult",
+    "readmitted"
+  ],
+  "selection": "For each diag_1 in [250.02,428,493], take first 20 rows sorted by numeric encounter_id; concatenate in that order. Preserve selected source values as strings.",
+  "source_coding": "ICD-9-CM as reported in source; category precision varies. Do not reinterpret as ICD-10-CM.",
+  "period": "1999-2008",
+  "original_repository": "https://doi.org/10.24432/C5230J",
+  "original_creators": [
+    "John Clore",
+    "Krzysztof Cios",
+    "Jon DeShazo",
+    "Beata Strack"
+  ],
+  "original_license": "CC BY 4.0",
+  "kaggle_license_label": "CC0: Public Domain",
+  "license_resolution": "Preserve original UCI attribution and CC BY 4.0 obligations despite the mirror label.",
+  "bias": "Purposive equal-stratum teaching subset, not a prevalence sample. Source cohort already selects encounters involving diabetes.",
+  "transformation": "Selected rows and columns only; semantic derived fields live in separate graphs."
+}

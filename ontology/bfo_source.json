@@ -1,0 +1,8 @@
+{
+  "repository": "https://github.com/BFO-ontology/BFO-2020",
+  "commit": "0900316ea9d330f599bd110f7f6504ed33a87fc8",
+  "path": "21838-2/owl/bfo-core.owl",
+  "sha256": "b65c817a7a25501499d287981aea972f2ce33146dcfb855915a459f6a051718d",
+  "license": "CC BY 4.0",
+  "changes": "None; complete core file vendored. Imports absent in this file."
+}

@@ -1,0 +1,7 @@
+code,label,release,source
+E11,Type 2 diabetes mellitus,2026-04-01,https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Publications/ICD10CM/2026-update/icd10cm-April-1-2026-XML.zip
+E11.9,Type 2 diabetes mellitus without complications,2026-04-01,https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Publications/ICD10CM/2026-update/icd10cm-April-1-2026-XML.zip
+I50,Heart failure,2026-04-01,https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Publications/ICD10CM/2026-update/icd10cm-April-1-2026-XML.zip
+I50.9,"Heart failure, unspecified",2026-04-01,https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Publications/ICD10CM/2026-update/icd10cm-April-1-2026-XML.zip
+J45,Asthma,2026-04-01,https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Publications/ICD10CM/2026-update/icd10cm-April-1-2026-XML.zip
+J45.909,"Unspecified asthma, uncomplicated",2026-04-01,https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Publications/ICD10CM/2026-update/icd10cm-April-1-2026-XML.zip

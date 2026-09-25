@@ -1,0 +1,4 @@
+# Dataset view: dataset
+# Expected rows or triples: 20
+PREFIX ex: <https://example.org/health/ontology/> PREFIX skos: <http://www.w3.org/2004/02/skos/core#> PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT ?id ?code WHERE { GRAPH <urn:graph:derived:v1> { ?r a ex:ReviewCandidate } GRAPH <urn:graph:asserted:v1> { ?r ex:encounterId ?id; ex:primaryCode ?code } } ORDER BY ?id

@@ -1,0 +1,49 @@
+{
+  "name": "Encounter code review learning product",
+  "version": "1.0.0",
+  "deployment_state": "local learning package",
+  "live_endpoint": null,
+  "owner_role": "Clinical terminology product owner",
+  "steward_role": "Terminology steward",
+  "consumers": [
+    "Data analyst",
+    "Terminology steward"
+  ],
+  "competency_questions": [
+    "Which source records have respiratory-family codes?",
+    "Which evidence supports each review classification?",
+    "Which mappings remain proposed?"
+  ],
+  "grain": "Encounter record",
+  "source_period": "1999-2008",
+  "source_subset": "60 records; equal strata across three source diagnosis tokens",
+  "refresh_policy": "Rebuild on accepted source, mapping or ontology changes; no claim of current clinical observations",
+  "access": "Published learning subset; production access policy to be designed for its actual source",
+  "quality_gates": [
+    "Source checksum matches",
+    "SHACL intake conforms",
+    "Complete import closure passes OWL 2 DL",
+    "Ontology consistent",
+    "Expected answer IDs match",
+    "Unsupported mappings absent"
+  ],
+  "reasoning": "HermiT; named class memberships only exported to SPARQL",
+  "dependencies": [
+    "BFO pinned commit in ontology/bfo_source.json",
+    "Source manifest in data/source_manifest.json",
+    "Accepted local reporting mappings in ontology/taxonomies.ttl"
+  ],
+  "support": "File a reproducible issue with notebook, step, source and model versions; do not include new private clinical records",
+  "release_approval_roles": [
+    "Product owner",
+    "Ontology steward",
+    "Data steward"
+  ],
+  "cost_fields": [
+    "Build runtime",
+    "Compute cost",
+    "Steward review minutes",
+    "Training effort"
+  ],
+  "rollback": "Restore prior source/model/mapping versions and rebuild derived graph"
+}

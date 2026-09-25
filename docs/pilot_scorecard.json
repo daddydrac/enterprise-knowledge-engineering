@@ -1,0 +1,27 @@
+{
+  "learning_outcome": "Learners will measure whether people can use the product, alongside checking whether its answers are correct.",
+  "status": "Measurement plan; no human pilot has been run",
+  "tasks": [
+    "Locate a review record",
+    "Recover its source code and encounter ID",
+    "Explain the review inference",
+    "Distinguish a proposed cross-version link from an approved mapping"
+  ],
+  "measurements": {
+    "answer_correctness": null,
+    "task_completion_rate": null,
+    "median_task_seconds": null,
+    "median_review_minutes": null,
+    "weekly_returning_user_rate": null,
+    "cost_per_successful_task": null
+  },
+  "definitions": {
+    "answer_correctness": "Correct reviewed answer items / reviewed answer items",
+    "task_completion_rate": "Successfully completed tasks / attempted tasks",
+    "weekly_returning_user_rate": "Users returning in a defined week / eligible invited users",
+    "cost_per_successful_task": "Measured operating and review cost / successful tasks"
+  },
+  "collection": "Observe representative users, record attempted and successful tasks, assistance, elapsed time, misunderstandings and model/data version",
+  "comparison": "Use equivalent baseline and product tasks; preserve the same scoring rubric",
+  "decision": "Approve broader rollout only after agreed correctness, comprehension and operating-cost gates are met"
+}

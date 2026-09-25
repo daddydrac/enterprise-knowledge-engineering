@@ -1,0 +1,11 @@
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix ex: <https://example.org/health/ontology/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+<#EncounterRecordMap> a rr:TriplesMap ;
+ rr:logicalTable [ rr:tableName "encounters" ] ;
+ rr:subjectMap [ rr:template "https://example.org/health/resource/record/{encounter_id}" ; rr:class ex:EncounterRecord ] ;
+ rr:predicateObjectMap [ rr:predicate ex:encounterId ; rr:objectMap [ rr:column "encounter_id" ; rr:datatype xsd:string ] ] ;
+ rr:predicateObjectMap [ rr:predicate ex:primaryCode ; rr:objectMap [ rr:template "https://example.org/health/icd9-source/{diag_1}" ; rr:termType rr:IRI ] ] ;
+ rr:predicateObjectMap [ rr:predicate ex:stayDays ; rr:objectMap [ rr:column "time_in_hospital" ; rr:datatype xsd:integer ] ] .
+# Specification exercise: run ontology_lab.build_asserted for the executable
+# Python adapter. This package does not ship an R2RML execution engine.

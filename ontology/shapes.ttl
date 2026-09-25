@@ -1,0 +1,9 @@
+@prefix ex: <https://example.org/health/ontology/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+ex:RecordShape a sh:NodeShape ; sh:targetClass ex:EncounterRecord ;
+ sh:property [ sh:path ex:encounterId ; sh:minCount 1 ; sh:maxCount 1 ; sh:datatype xsd:string ] ;
+ sh:property [ sh:path ex:documents ; sh:minCount 1 ; sh:maxCount 1 ; sh:nodeKind sh:IRI ] ;
+ sh:property [ sh:path ex:primaryCode ; sh:minCount 1 ; sh:maxCount 1 ; sh:nodeKind sh:IRI ] ;
+ sh:property [ sh:path ex:stayDays ; sh:minCount 1 ; sh:datatype xsd:integer ; sh:minInclusive 1 ; sh:maxInclusive 14 ] ;
+ sh:property [ sh:path ex:readmissionCategory ; sh:minCount 1 ; sh:in ( "NO" "<30" ">30" ) ] .

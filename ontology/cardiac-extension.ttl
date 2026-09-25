@@ -1,0 +1,4 @@
+@prefix ex: <https://example.org/health/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+# A locally approved review workflow expansion. No diagnostic claim is added.
+ex:CardiacCodedRecord rdfs:subClassOf ex:ReviewCandidate .

@@ -1,0 +1,34 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix local: <https://example.org/health/reporting/> .
+@prefix code: <https://example.org/health/icd9-source/> .
+@prefix cm: <https://example.org/health/icd10cm/2026-04/> .
+@prefix ex: <https://example.org/health/ontology/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+local:scheme a skos:ConceptScheme ; skos:prefLabel "Encounter reporting categories"@en .
+code:scheme a skos:ConceptScheme ; skos:prefLabel "Source ICD-9-CM code tokens"@en ;
+ dct:source <https://www.kaggle.com/datasets/brandao/diabetes> .
+cm:scheme a skos:ConceptScheme ; skos:prefLabel "ICD-10-CM selected categories, April 2026"@en ;
+ dct:source <https://www.cdc.gov/nchs/icd/icd-10-cm/files.html> .
+local:clinical a skos:Concept ; skos:inScheme local:scheme ; skos:prefLabel "Selected clinical code families"@en .
+local:endocrine a skos:Concept ; skos:inScheme local:scheme ; skos:prefLabel "Endocrine code family"@en ; skos:broader local:clinical .
+local:cardiac a skos:Concept ; skos:inScheme local:scheme ; skos:prefLabel "Cardiac code family"@en ; skos:broader local:clinical .
+local:respiratory a skos:Concept ; skos:inScheme local:scheme ; skos:prefLabel "Respiratory code family"@en ; skos:broader local:clinical .
+code:250.02 a skos:Concept ; skos:inScheme code:scheme ; skos:notation "250.02" ; skos:prefLabel "Source code 250.02"@en ; skos:broadMatch local:endocrine .
+code:428 a skos:Concept ; skos:inScheme code:scheme ; skos:notation "428" ; skos:prefLabel "Source code 428"@en ; skos:broadMatch local:cardiac .
+code:493 a skos:Concept ; skos:inScheme code:scheme ; skos:notation "493" ; skos:prefLabel "Source code 493"@en ; skos:broadMatch local:respiratory .
+local:source493 a skos:Concept ; skos:inScheme local:scheme ; skos:prefLabel "Reporting alias for source code 493"@en ;
+ skos:scopeNote "An exact alias of the source token concept in this release; not an equivalence across clinical code systems."@en ; skos:exactMatch code:493 .
+cm:E11 a skos:Concept ; skos:inScheme cm:scheme ; skos:notation "E11" ; skos:prefLabel "Type 2 diabetes mellitus"@en .
+cm:E11.9 a skos:Concept ; skos:inScheme cm:scheme ; skos:notation "E11.9" ; skos:prefLabel "Type 2 diabetes mellitus without complications"@en ; skos:broader cm:E11 .
+cm:I50 a skos:Concept ; skos:inScheme cm:scheme ; skos:notation "I50" ; skos:prefLabel "Heart failure"@en .
+cm:I50.9 a skos:Concept ; skos:inScheme cm:scheme ; skos:notation "I50.9" ; skos:prefLabel "Heart failure, unspecified"@en ; skos:broader cm:I50 .
+cm:J45 a skos:Concept ; skos:inScheme cm:scheme ; skos:notation "J45" ; skos:prefLabel "Asthma"@en .
+cm:J45.909 a skos:Concept ; skos:inScheme cm:scheme ; skos:notation "J45.909" ; skos:prefLabel "Unspecified asthma, uncomplicated"@en ; skos:broader cm:J45 .
+# Cross-version candidates are review records, not asserted SKOS mappings.
+local:proposal493 a rdf:Statement ; rdf:subject code:493 ; rdf:predicate skos:closeMatch ; rdf:object cm:J45 ;
+ ex:status "proposed" ; ex:reviewRole "Terminology steward" ;
+ ex:rationale "Similar category labels are not sufficient to certify coding equivalence. Compare release scopes, inclusions and exclusions." ;
+ prov:wasDerivedFrom <https://www.cdc.gov/nchs/icd/icd-10-cm/files.html> .
